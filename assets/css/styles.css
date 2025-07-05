@@ -4,7 +4,7 @@
 /* CSS Variables */
 :root {
     --heading-font: "Great Vibes", cursive;
-    --primary-font: "Nunito"; sans-serif
+    --primary-font: "Nunito", sans-serif;
 }
 
 body {
