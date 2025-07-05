@@ -1,0 +1,18 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital@0;1&display=swap');
+
+/* CSS Variables */
+:root {
+    --heading-font: "Great Vibes", cursive;
+    --primary-font: "Nunito"; sans-serif
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+}
