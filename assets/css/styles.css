@@ -5,6 +5,8 @@
 :root {
     --heading-font: "Great Vibes", cursive;
     --primary-font: "Nunito", sans-serif;
+    --primary-background-color: black;
+    --primary-font-color: white;
 }
 
 /* General CSS */
@@ -25,7 +27,6 @@ h1 {
     margin-bottom: 0px; 
 }
 
-
 /* Temp code test flex */
 .container {
     border: black solid 1px;
@@ -41,11 +42,22 @@ h1 {
     }    
 }
 
-/* Larger screen sizes - 992px and up */
+/* Large screen sizes - 992px and up */
 @media screen and (min-width: 992px) {
     h1 {
         /* margin bottom 8px centers heading navbar vertically - no more burger icon */
         margin-bottom: 8px;
     }    
 }
+
+/* X-Large screen sizes - 1200px and up */
+@media screen and (min-width: 1200px) {
+    nav>.container>a {
+    width: 50%;
+    text-align: right;
+}   
+}
+
+
+
 
