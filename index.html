@@ -3,9 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The Garden Gallery offers the perfect blend of enjoying gardening and art. Join us for our next meeting and experience this amazing synergy.">
-    <meta name="keywords" content="garden, gallery, art, paintings, artists, garden styling, garden tours">
-    <meta name="author" content="Gary Burke">
+    <meta
+      name="description"
+      content="The Garden Gallery offers the perfect blend of enjoying gardening and art. Join us for our next meeting and experience this amazing synergy."
+    />
+    <meta
+      name="keywords"
+      content="garden, gallery, art, paintings, artists, garden styling, garden tours"
+    />
+    <meta name="author" content="Gary Burke" />
     <title>The Garden Gallery</title>
 
     <!-- Fav icon-->
@@ -41,7 +47,46 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
-  <body>
+  <body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="#"><h1>The Garden Gallery</h1></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#meetings">Meetings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="garden.html">Garden</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

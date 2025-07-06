@@ -7,6 +7,8 @@
     --primary-font: "Nunito", sans-serif;
 }
 
+/* General CSS */
+
 body {
     font-family: var(--primary-font);
 }
@@ -16,3 +18,34 @@ h2,
 h3 {
     font-family: var(--heading-font);
 }
+
+h1 {
+    font-size: 2rem;
+    /* margin bottom 0px centers heading with burger icon vertically */
+    margin-bottom: 0px; 
+}
+
+
+/* Temp code test flex */
+.container {
+    border: black solid 1px;
+}
+
+
+/* Media Queries */
+
+/* Medium screen sizes - 768px and up */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }    
+}
+
+/* Larger screen sizes - 992px and up */
+@media screen and (min-width: 992px) {
+    h1 {
+        /* margin bottom 8px centers heading navbar vertically - no more burger icon */
+        margin-bottom: 8px;
+    }    
+}
+

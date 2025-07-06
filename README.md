@@ -66,16 +66,10 @@ For this project, Google Fonts was used to create a cohesive and accessible typo
 
 ## Colour Scheme
 
-The website’s colour scheme was carefully selected using [Coolors](https://coolors.co/) to create a welcoming, engaging, and user-friendly experience. A combination of calm blues, warm highlights, and a clean neutral background aligns with _Boops & Snoots Rescue’s_ branding, reinforcing trust, positivity, and approachability.
+When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
 
-- **Primary Colour – Dark Blue (#2D4A5B):** Used for text and headings, this deep blue conveys trust and stability.
-- **Secondary Colour – Light Blue (#365B78):** Featured in the navigation bar and logo, ensuring brand consistency.
-- **Primary Highlight – Orange (#E4810B):** A bold, warm and energetic colour used for call-to-action elements, drawing attention and encouraging interaction.
-- **Secondary Highlight – Yellow (#FBC037):** A cheerful, uplifting colour used for hover effects and subtle separators.
-- **Accent Colour – Light Yellow (#FFD978):** Enhances decorative elements, softening the design while keeping it cheerful.
-- **Neutral Background – Light Grey (#F1EFE8A5):** Applied to the application and contact forms, ensuring readability while maintaining a light, friendly feel.
-
-Additionally, white space (#FFFFFF) plays a key role in the design, keeping the interface clean, modern, and easy to navigate. The balance of blues, warm tones, and neutral shades creates a professional yet friendly aesthetic that reflects the mission of Boops & Snoots Rescue.
+Here is a visual representation of the overall colour scheme of the website:
+![Colour Scheme screenshot](<Colour Scheme.jpg>)
 
 ### Accessibility Considerations
 
