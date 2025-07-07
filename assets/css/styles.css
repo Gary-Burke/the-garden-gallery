@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,500;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,500;1,500&display=swap");
 
 /* CSS Variables */
 :root {
@@ -7,8 +7,8 @@
   --primary-font: "Nunito", sans-serif;
   --primary-background-color: #1b512d; /* Dark green */
   --background-highlight-color: #def4c6; /* Off-White */
-  --primary-text-color: #1C7C54; /* medium green */
-  --secondary-text-color: #B1CF5F; /* light green */
+  --primary-text-color: #1c7c54; /* medium green */
+  --secondary-text-color: #b1cf5f; /* light green */
 }
 
 /* General CSS */
@@ -33,12 +33,25 @@ h1 {
 }
 
 h2 {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: var(--primary-background-color);
 }
 
 h3 {
   color: var(--primary-background-color);
+}
+
+.button {
+  background-color: white;
+  border-color: var(--primary-background-color);
+  color: var(--primary-background-color);
+}
+
+.button:hover {
+  background-color: var(--primary-background-color);
+  border-color: var(--primary-background-color);
+  color: white;
 }
 
 /* Navbar */
@@ -67,6 +80,11 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
+/* Sections */
+.section {
+  margin-top: 1rem;
+}
+
 /* Hero section */
 #hero {
   height: 60vh;
@@ -74,10 +92,16 @@ nav .btn-primary:hover {
   box-shadow: 3px 3px 3px #3a3a3a;
 }
 
-/* Meetings section */
-#meetings {
-  margin-top: 1rem;
+/* Nav card section */
+#nav-cards .card {
+  border: none;
 }
+
+#nav-cards img {
+  border-radius: 0.9rem;
+ 
+}
+
 
 /* Temp code test flex */
 /* .container {
