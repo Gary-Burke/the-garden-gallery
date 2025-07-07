@@ -69,7 +69,7 @@ For this project, Google Fonts was used to create a cohesive and accessible typo
 When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
 
 Here is a visual representation of the overall colour scheme of the website:
-![Colour Scheme screenshot](<Colour Scheme.jpg>)
+![alt text](assets/images/colour-scheme.jpg)
 
 ### Accessibility Considerations
 

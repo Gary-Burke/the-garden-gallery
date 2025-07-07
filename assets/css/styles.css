@@ -54,6 +54,14 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
+/* Hero section */
+#hero {
+  width: 100%;
+  height: 600px;
+  background: url("../images/Hero.webp") no-repeat 0px 0px / cover;
+}
+
+
 /* Temp code test flex */
 .container {
   border: black solid 1px;
