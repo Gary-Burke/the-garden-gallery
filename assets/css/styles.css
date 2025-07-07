@@ -79,12 +79,11 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
-/* Header */
+/* Header section with hero*/
 header {
   margin-top: 4rem; /* Move header section down to compensate for fixed navbar */
 }
 
-/* Hero section */
 #hero {
   height: 60vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;
@@ -93,7 +92,7 @@ header {
 
 /* Sections */
 .section {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 /* Nav-card section */
