@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,500;1,500&display=swap');
 
 /* CSS Variables */
 :root {
@@ -7,12 +7,15 @@
   --primary-font: "Nunito", sans-serif;
   --primary-background-color: #1b512d; /* Dark green */
   --background-highlight-color: #def4c6; /* Off-White */
+  --primary-text-color: #1C7C54; /* medium green */
+  --secondary-text-color: #B1CF5F; /* light green */
 }
 
 /* General CSS */
 
 body {
   font-family: var(--primary-font);
+  color: var(--primary-text-color);
 }
 
 h1,
@@ -27,6 +30,11 @@ h1 {
   /* margin bottom 0px centers heading with burger icon vertically */
   margin-bottom: 0px;
   color: var(--background-highlight-color);
+}
+
+h2 {
+  margin: 1rem 0;
+  color: var(--primary-background-color);
 }
 
 /* Navbar */
@@ -57,15 +65,19 @@ nav .btn-primary:hover {
 
 /* Hero section */
 #hero {
-  width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;
+  box-shadow: 3px 3px 3px #3a3a3a;
 }
 
+/* Meetings section */
+#meetings {
+  margin-top: 1rem;
+}
 
 /* Temp code test flex */
 /* .container {
-  border: black solid 1px;
+  border: black solid 2px;
 } */
 
 /* Media Queries */
