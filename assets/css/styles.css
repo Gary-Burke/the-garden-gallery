@@ -8,7 +8,7 @@
   --primary-background-color: #1b512d; /* Dark green */
   --background-highlight-color: #def4c6; /* Off-White */
   --primary-text-color: #1c7c54; /* medium green */
-  --secondary-text-color: #b1cf5f; /* light green */
+  --secondary-text-color: #b1cf5f; /* lime green */
 }
 
 /* General CSS */
@@ -30,14 +30,6 @@ h1 {
   word-spacing: 0.3rem;
   margin-bottom: 0px; /* centers heading with burger icon vertically */
   color: var(--background-highlight-color);
-}
-
-h2 {
-  color: var(--primary-background-color); 
-}
-
-h3 {
-  color: var(--primary-background-color);
 }
 
 .button {
@@ -82,6 +74,11 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
+main h2,
+main h3 {
+  color: var(--primary-background-color);
+}
+
 /* Header section with hero*/
 #hero {
   height: 60vh;
@@ -91,7 +88,7 @@ nav .btn-primary:hover {
 
 /* Meetings section */
 #meetings h3 {
- padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 /* Nav-card section */
@@ -104,13 +101,40 @@ nav .btn-primary:hover {
 }
 
 #nav-cards {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
-/* Temp code test flex */ 
-/* .container {
-  border: black solid 2px;
-} */
+/* Footer */
+
+.contact-info i {
+  font-size: 1.2rem;
+}
+
+#contact {
+  background-color: var(--primary-background-color);
+  color: var(--background-highlight-color);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#social-icons {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+#social-icons i:hover {
+  color: var(--background-highlight-color);
+}
+
+#contact i {
+   color: var(--secondary-text-color);
+}
+
+#contact h2 {
+  padding-bottom: 1rem;
+  word-spacing: 0.5rem;
+}
 
 /* Media Queries */
 
@@ -131,15 +155,18 @@ nav .btn-primary:hover {
     padding-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
   .section {
-  padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
+    padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
+  }
+  #social-icons {
+  font-size: 3rem;
 }
 }
 
 /* Large screen sizes - 992px and up */
 @media screen and (min-width: 992px) {
   .section {
-  padding-top: 6rem; /* Account for fixed nav bar and h1 responsive size change */
-}
+    padding-top: 6rem; /* Account for fixed nav bar and h1 responsive size change */
+  }
 }
 
 /* X-Large screen sizes - 1200px and up */

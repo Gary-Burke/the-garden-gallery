@@ -51,7 +51,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand mx-auto" href="index.html"><h1>The Garden Gallery</h1></a>
+        <a class="navbar-brand mx-auto" href="index.html"
+          ><h1>The Garden Gallery</h1></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -105,7 +107,7 @@
             <h2 class="display-4">Meetings</h2>
           </div>
 
-          <div class="col-md-10 col-lg-8  mx-auto">
+          <div class="col-md-10 col-lg-8 mx-auto">
             <h3 class="display-5 text-center">What To Expect</h3>
             <p>
               At the Garden Gallery we provide an interactive tour of our french
@@ -126,7 +128,7 @@
             </p>
           </div>
         </div>
-      </section> 
+      </section>
 
       <section id="nav-cards" class="container">
         <div class="row justify-content-evenly">
@@ -159,7 +161,70 @@
       </section>
     </main>
 
-    <footer class="container mt-auto">Footer</footer>
+    <footer id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div>
+            <h2 class="display-4 text-center">Contact Us</h2>
+          </div>
+
+          <div class="col-md-4 col-lg-4 contact-info">
+            <address>
+              <i class="fa-solid fa-location-dot"></i> The Garden Gallery
+              <br />
+              Abcde Street 123 <br />
+              Radefeld, 03445 <br />
+              Germany
+            </address>
+          </div>
+
+          <div class="col-md-4 col-lg-4 contact-info">
+            <p>
+              <i class="fa-solid fa-phone"></i> 012 345 6789 <br />
+              <i class="fa-solid fa-envelope"></i> gardengallery@xmail.com
+            </p>
+          </div>
+
+          <div id="social-icons" class="d-flex justify-content-evenly">
+            <div>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.x.com"
+                target="_blank"
+                aria-label="Visit our X feed (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                aria-label="Visit our Youtube channel (opens in a new tab)"
+                rel="noopener"
+                ><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script
@@ -174,28 +239,28 @@
       crossorigin="anonymous"
     ></script>
 
-     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links.
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links.
           Code copied from CI Boardwalk Games project -->
     <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight =
+                document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
     </script>
-
   </body>
 </html>

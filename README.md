@@ -2,6 +2,8 @@
 
 The Garden Gallery is small business, that operates from a private property in Radefeld Germany. The aim of the business is to organize social events, where a group of people sign up for a tour of the french styled garden. After the tour, they will be introduced to an art gallery, where they can make purchases. The goal of this website, is to increase their online presence and draw more people on a regular basis to their events.
 
+The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
+
 ---To Add and Replace here: Am I Responsive Image---
 
 ## Features
@@ -110,9 +112,10 @@ This website was deployed to GitHub pages by the following process:
 - Open the repository in GitHub.
 - Open the Settings tab.
 - Go to the Pages section under Code and automation.
-- From the Source section, select Master Branch.
+- Navigate to the Build and deployment section.
+- From the Branch dropdown menu, select Main and save.
 - Once the site has been delpoyed, the url will be displayed in this Pages section.
-- You might need to refresh Github manually after a few seconds.
+- You might need to refresh GitHub manually after a few seconds.
 
 The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
