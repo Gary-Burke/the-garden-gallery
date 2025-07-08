@@ -16,7 +16,7 @@
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  margin-top: 4rem; /* Moves body down to compensate for fixed navbar */
+  padding-top: 4rem; /* Moves body down to compensate for fixed navbar */
 }
 
 h1,
@@ -33,8 +33,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
   color: var(--primary-background-color);
 }
 
@@ -52,6 +52,10 @@ h3 {
   background-color: var(--primary-background-color);
   border-color: var(--primary-background-color);
   color: white;
+}
+
+.section {
+  padding-top: 2.2rem; /* Account for fixed nav bar and h1 responsive size change */
 }
 
 /* Navbar */
@@ -80,11 +84,6 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
-/* Sections */
-.section {
-  margin-top: 1.2rem;
-}
-
 /* Header section with hero*/
 #hero {
   height: 60vh;
@@ -101,9 +100,10 @@ nav .btn-primary:hover {
   border-radius: 0.9rem;
 }
 
-Temp code test flex .container {
+/* Temp code test flex */ 
+/* .container {
   border: black solid 2px;
-}
+} */
 
 /* Media Queries */
 
@@ -121,8 +121,18 @@ Temp code test flex .container {
     word-spacing: 1rem;
   }
   body {
-    margin-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
+    padding-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
+  .section {
+  padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
+}
+}
+
+/* Large screen sizes - 992px and up */
+@media screen and (min-width: 992px) {
+  .section {
+  padding-top: 6rem; /* Account for fixed nav bar and h1 responsive size change */
+}
 }
 
 /* X-Large screen sizes - 1200px and up */
