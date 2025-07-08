@@ -33,8 +33,6 @@ h1 {
 }
 
 h2 {
-  /* margin-top: 1rem; */
-  margin-bottom: 2rem;
   color: var(--primary-background-color); 
 }
 
@@ -91,6 +89,11 @@ nav .btn-primary:hover {
   box-shadow: 0 3px 3px #3a3a3a;
 }
 
+/* Meetings section */
+#meetings h3 {
+ padding-top: 1rem;
+}
+
 /* Nav-card section */
 #nav-cards .card {
   border: none;
@@ -98,6 +101,10 @@ nav .btn-primary:hover {
 
 #nav-cards img {
   border-radius: 0.9rem;
+}
+
+#nav-cards {
+  margin-top: 1rem;
 }
 
 /* Temp code test flex */ 
