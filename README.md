@@ -105,15 +105,16 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This website was deployed to GitHub pages by the following process:
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- Open the repository in GitHub.
+- Open the Settings tab.
+- Go to the Pages section under Code and automation.
+- From the Source section, select Master Branch.
+- Once the site has been delpoyed, the url will be displayed in this Pages section.
+- You might need to refresh Github manually after a few seconds.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
 ## Credits 
 
