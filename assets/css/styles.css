@@ -33,9 +33,9 @@ h1 {
 }
 
 h2 {
-  /* margin-top: 1rem;
-  margin-bottom: 1rem; */
-  color: var(--primary-background-color);
+  /* margin-top: 1rem; */
+  margin-bottom: 2rem;
+  color: var(--primary-background-color); 
 }
 
 h3 {
