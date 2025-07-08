@@ -20,19 +20,19 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets\images\apple-touch-icon.png"
+      href="assets/images/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets\images\favicon-32x32.png"
+      href="assets/images/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets\images\favicon-16x16.png"
+      href="assets/images/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
 
@@ -51,7 +51,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand mx-auto" href="#"><h1>The Garden Gallery</h1></a>
+        <a class="navbar-brand mx-auto" href="index.html"><h1>The Garden Gallery</h1></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -72,7 +72,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#meetings">Meetings</a>
+              <a class="nav-link" href="#meetings">Meetings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="garden.html">Garden</a>
@@ -81,7 +81,7 @@
               <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <button type="button" class="btn btn-primary ms-lg-3">
               Register
@@ -99,7 +99,7 @@
     </header>
 
     <main>
-      <section class="container section">
+      <section id="meetings" class="container section">
         <div class="row">
           <div class="text-center">
             <h2 class="display-4">Meetings</h2>
@@ -126,7 +126,7 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> 
 
       <section id="nav-cards" class="container section">
         <div class="row justify-content-evenly">
@@ -173,5 +173,29 @@
       src="https://kit.fontawesome.com/3a3a47fde5.js"
       crossorigin="anonymous"
     ></script>
+
+     <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links.
+          Code copied from CI Boardwalk Games project -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
+
   </body>
 </html>

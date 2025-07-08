@@ -16,6 +16,7 @@
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
+  margin-top: 4rem; /* Moves body down to compensate for fixed navbar */
 }
 
 h1,
@@ -79,20 +80,16 @@ nav .btn-primary:hover {
   color: var(--background-highlight-color);
 }
 
-/* Header section with hero*/
-header {
-  margin-top: 4rem; /* Move header section down to compensate for fixed navbar */
-}
-
-#hero {
-  height: 60vh;
-  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
-  box-shadow: 3px 3px 3px #3a3a3a;
-}
-
 /* Sections */
 .section {
   margin-top: 1.2rem;
+}
+
+/* Header section with hero*/
+#hero {
+  height: 60vh;
+  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
+  box-shadow: 0 3px 3px #3a3a3a;
 }
 
 /* Nav-card section */
@@ -110,14 +107,21 @@ Temp code test flex .container {
 
 /* Media Queries */
 
+/* Small screen sizes - 576px and up */
+@media screen and (min-width: 576px) {
+  #hero {
+    box-shadow: 3px 3px 3px #3a3a3a;
+  }
+}
+
 /* Medium screen sizes - 768px and up */
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 3.5rem;
     word-spacing: 1rem;
   }
-  header {
-    margin-top: 5.9rem; /* Move header section down to compensate for fixed navbar as h1 increases in size */
+  body {
+    margin-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
 }
 
