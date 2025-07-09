@@ -44,6 +44,18 @@ h1 {
   color: white;
 }
 
+.button-solid {
+  background-color: var(--primary-background-color);
+  border-color: var(--primary-background-color);
+  color:white;
+}
+
+.button-solid:hover {
+  background-color:white;
+  border-color: var(--primary-background-color);
+  color: var(--primary-background-color);
+}
+
 .section {
   padding-top: 2.2rem; /* Account for fixed nav bar and h1 responsive size change */
 }
@@ -91,6 +103,12 @@ main h3 {
   padding-top: 1rem;
 }
 
+#meetings .btn-primary {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* Nav-card section */
 #nav-cards .card {
   border: none;
@@ -106,6 +124,10 @@ main h3 {
 
 /* Footer */
 
+footer {
+  box-shadow: 0 -3px 3px #3a3a3a;
+}
+
 .contact-info i {
   font-size: 1.2rem;
 }
@@ -119,7 +141,7 @@ main h3 {
 }
 
 #social-icons {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding-top: 1rem;
 }
 
