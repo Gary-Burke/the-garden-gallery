@@ -47,11 +47,11 @@ h1 {
 .button-solid {
   background-color: var(--primary-background-color);
   border-color: var(--primary-background-color);
-  color:white;
+  color: white;
 }
 
 .button-solid:hover {
-  background-color:white;
+  background-color: white;
   border-color: var(--primary-background-color);
   color: var(--primary-background-color);
 }
@@ -150,7 +150,7 @@ footer {
 }
 
 #contact i {
-   color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 #contact h2 {
@@ -180,8 +180,8 @@ footer {
     padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
   }
   #social-icons {
-  font-size: 3rem;
-}
+    font-size: 3rem;
+  }
 }
 
 /* Large screen sizes - 992px and up */
