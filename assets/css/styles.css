@@ -160,15 +160,16 @@ footer {
 
 /* Registration Page */
 #register-hero {
-  height: 60vh;
+  height: 80vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;  
 }
 
 #form {
- 
+   position: absolute;
+   top: 20%;
 }
 
-/* To DELETE */
+/* To DELETE      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */    
 form,
 .container
  {
