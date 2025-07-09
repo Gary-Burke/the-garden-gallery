@@ -70,9 +70,9 @@ nav {
   color: var(--background-highlight-color);
 }
 
-.nav-item .active {
+/* .nav-item .active {
   text-decoration: underline;
-}
+} */
 
 nav .btn-primary {
   background-color: var(--background-highlight-color);
@@ -157,6 +157,24 @@ footer {
   padding-bottom: 1rem;
   word-spacing: 0.5rem;
 }
+
+/* Registration Page */
+#register-hero {
+  height: 60vh;
+  background: url("../images/hero.webp") no-repeat 0px 0px / cover;  
+}
+
+#form {
+ 
+}
+
+/* To DELETE */
+form,
+.container
+ {
+  border: solid 2px black;
+}
+
 
 /* Media Queries */
 

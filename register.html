@@ -12,7 +12,7 @@
       content="garden, gallery, art, paintings, artists, garden styling, garden tours"
     />
     <meta name="author" content="Gary Burke" />
-    <title>The Garden Gallery | Home</title>
+    <title>The Garden Gallery | Registration</title>
 
     <!-- Fav icon-->
     <!-- Used https://favicon.io
@@ -48,6 +48,7 @@
   </head>
 
   <body class="d-flex flex-column min-vh-100">
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
       <div class="container">
@@ -69,9 +70,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#meetings">Meetings</a>
@@ -86,9 +85,13 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-primary ms-lg-3" href="register.html">Register</a>
+              <a
+                class="nav-link btn btn-primary ms-lg-3"
+                aria-current="page"
+                href="register.html"
+                >Register</a
+              >
             </li>
-            
           </ul>
         </div>
       </div>
@@ -97,77 +100,87 @@
     <!-- Header with hero image -->
     <header class="container">
       <div class="row">
-        <div id="hero"></div>
+        <div id="register-hero"></div>
       </div>
     </header>
 
-    <!-- Main section - meetings -->
-    <main>
-      <section id="meetings" class="container section">
-        <div class="row">
-          <div class="text-center">
-            <h2 class="display-4">Meetings</h2>
-          </div>
+    <!-- Main section - registration form -->
+    <main id="form" class="container">
 
-          <div class="col-md-10 col-lg-8 mx-auto">
-            <h3 class="display-5 text-center">What To Expect</h3>
-            <p>
-              At the Garden Gallery we provide an interactive tour of our french
-              styled garden. We provide detailed and in-depth explanations of
-              how we style and maintain our peace of heaven. During the tour,
-              visitors also often share their tips and tricks in regards to
-              styling and maintaining such gardens. After the garden tour we
-              will move to the little gallery, where we showcase art from local
-              artists. Every visitor will be given the oppertunity to purchase
-              an art piece at an affordable price.
-            </p>
-            <h3 class="display-5 text-center">Entrance Fees</h3>
-            <p>
-              There is a 5 Euro entrance fee per visitor but this not only buys
-              you an amazing tour of our gorgeous garden and exquisite gallery,
-              it also provides you with some hot and cold refreshments to enjoy
-              on the day.
-            </p>
-          </div>
+      <div class="row justify-content-center">
 
-          <div class="col-12 text-center">
-            <a href="booking.html" class="btn btn-primary button-solid">
-              Register
-            </a>
-          </div>
-        </div>
-      </section>
+        <div class="col-sm-10 col-lg-8 col-xl-6">
 
-      <!-- Main section - nav cards -->
-      <section id="nav-cards" class="container">
-        <div class="row justify-content-evenly">
-          <div class="card col-md-5 col-lg-4 col-xl-4 col-xxl-3">
-            <img
-              src="assets\images\garden-10.webp"
-              class="card-img-top"
-              alt="Garden view from sitting at a table"
+        <form action="success.html" method="GET" class="row">
+
+          <div class="col-md-6 mb-3">
+            <label for="first-name" class="form-label">First Name</label>
+            <input
+              class="form-control"
+              id="first-name"
+              name="first-name"
+              type="text"
+              required
             />
-            <div class="card-body ms-auto">
-              <a href="garden.html" class="btn btn-primary button"
-                >Visit the Garden</a
-              >
-            </div>
           </div>
 
-          <div class="card col-md-5 col-lg-4 col-xl-4 col-xxl-3">
-            <img
-              src="assets\images\art-1.webp"
-              class="card-img-top"
-              alt="Garden view from sitting at a table"
+          <div class="col-md-6 mb-3">
+            <label for="last-name" class="form-label">Last Name</label>
+            <input
+              class="form-control"
+              id="last-name"
+              name="last-name"
+              type="text"
+              required
             />
-            <div class="card-body ms-auto">
-              <a href="gallery.html" class="btn btn-primary button"
-                >Visit the Gallery</a
-              >
-            </div>
           </div>
+
+          <div class="col-md-8 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              type="email"
+              required
+            />
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input
+              class="form-control"
+              id="phone"
+              name="phone"
+              type="number"
+              required
+            />
+          </div>
+
+          <div class="col-md-8 mb-3">
+            <label for="meeting-date" class="form-label">Meeting Date</label>
+            <select
+              id="meeting-date"
+              class="form-select"
+              name="meeting-date"
+              required
+            >
+              <option value="" selected>Select</option>
+              <option value="regular-play">March 22, Hello Spring!</option>
+              <option value="dnd">May 22, Goodbye Spring!</option>
+              <option value="retro-night">June 22, Hello Summer!</option>
+              <option value="tournament">August 22, Goodbye Summer!</option>
+
+            </select>
+          </div>         
+
+          <button type="submit" class="btn custom-button-outline mb-3">
+            Submit
+          </button>
+
+        </form>
         </div>
-      </section>
+      </div>
     </main>
 
     <!-- Footer -->
