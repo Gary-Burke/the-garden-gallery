@@ -159,12 +159,12 @@ footer {
    position: absolute;
    left: 0;
    right: 0;
-   top: 25%;
+   top: 15%;
    margin-inline: auto;
 }
 
 #form-section form {
-  background-color: rgba(27, 81, 45, 0.9);
+  background-color: rgba(27, 81, 45, 0.85);
   border-radius: 1rem;
   padding: 2rem;
   color: var(--background-highlight-color);
@@ -198,6 +198,9 @@ footer {
   #social-icons {
     font-size: 3rem;
   }
+  #form-section {
+   top: 25%;
+}
 }
 
 /* Large screen sizes - 992px and up */
