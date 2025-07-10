@@ -152,15 +152,15 @@ footer {
 /* Registration Page */
 #register-hero {
   height: 100vh;
-  background: url("../images/hero.webp") no-repeat 0px 0px / cover;  
+  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
 }
 
 #form-section {
-   position: absolute;
-   left: 0;
-   right: 0;
-   top: 15%;
-   margin-inline: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+  margin-inline: auto;
 }
 
 #form-section form {
@@ -176,12 +176,27 @@ footer {
 
 /* The Garden Page */
 #garden-hero {
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 #garden-grid img {
-  max-height: 300px;
+  height: 400px;
+  width: fit-content;
+  padding: 0.3rem;
+  border-radius: 1.5rem;
 }
+
+#garden-hero h2 {
+  color: var(--primary-background-color);
+}
+
+/*  TEMp DELETE */
+/* .container,
+#garden-grid img, 
+#gallery-grid img {
+  border: black solid 2px;
+} */
 
 /* Media Queries */
 
@@ -208,8 +223,8 @@ footer {
     font-size: 3rem;
   }
   #form-section {
-   top: 25%;
-}
+    top: 25%;
+  }
 }
 
 /* Large screen sizes - 992px and up */
