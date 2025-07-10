@@ -85,7 +85,7 @@ main h3 {
 
 /* Header section with hero*/
 #hero {
-  height: 60vh;
+  height: 70vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;
   box-shadow: 0 3px 3px #3a3a3a;
 }
@@ -172,6 +172,15 @@ footer {
 
 #form-section button {
   padding: 0.4rem 1.5rem;
+}
+
+/* The Garden Page */
+#garden-hero {
+  padding-top: 2rem;
+}
+
+#garden-grid img {
+  max-height: 300px;
 }
 
 /* Media Queries */
