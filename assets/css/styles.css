@@ -189,6 +189,25 @@ footer {
 
 #garden-hero h2 {
   color: var(--primary-background-color);
+  padding-bottom: 1rem;
+}
+
+/* The Gallery Page */
+#gallery-hero {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+#gallery-grid img {
+  height: 400px;
+  width: fit-content;
+  padding: 0.3rem;
+  border-radius: 1.5rem;
+}
+
+#gallery-hero h2 {
+  color: var(--primary-background-color);
+  padding-bottom: 1rem;
 }
 
 /*  TEMp DELETE */
