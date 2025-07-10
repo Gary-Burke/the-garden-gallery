@@ -137,7 +137,7 @@ footer {
   color: var(--background-highlight-color);
   padding-top: 2rem;
   margin-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 #social-icons {
@@ -166,16 +166,11 @@ footer {
 
 #form {
    position: absolute;
+   left: 0;
+   right: 0;
    top: 20%;
+   margin-inline: auto;
 }
-
-/* To DELETE      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */    
-form,
-.container
- {
-  border: solid 2px black;
-}
-
 
 /* Media Queries */
 
