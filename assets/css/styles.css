@@ -151,7 +151,7 @@ footer {
 
 /* Registration Page */
 #register-hero {
-  height: 80vh;
+  height: 100vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;  
 }
 
