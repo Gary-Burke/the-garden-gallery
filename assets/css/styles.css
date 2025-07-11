@@ -32,13 +32,13 @@ h1 {
   color: var(--background-highlight-color);
 }
 
-.button {
+.button-outline {
   background-color: white;
   border-color: var(--primary-background-color);
   color: var(--primary-background-color);
 }
 
-.button:hover {
+.button-outline:hover {
   background-color: var(--primary-background-color);
   border-color: var(--primary-background-color);
   color: white;
@@ -48,6 +48,7 @@ h1 {
   background-color: var(--primary-background-color);
   border-color: var(--primary-background-color);
   color: white;
+  padding: 0.4rem 1.5rem;
 }
 
 .button-solid:hover {
@@ -111,7 +112,7 @@ main h3 {
 }
 
 #nav-cards {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 /* Footer */
@@ -126,8 +127,6 @@ footer {
 #contact {
   background-color: var(--primary-background-color);
   color: var(--background-highlight-color);
-  padding-top: 2rem;
-  margin-top: 2rem;
   padding-bottom: 1rem;
 }
 
