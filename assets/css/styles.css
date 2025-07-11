@@ -96,7 +96,7 @@ main h3 {
   padding-top: 1rem;
 }
 
-#meetings .btn-primary {
+#meetings .button-solid {
   padding: 0.5rem 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -169,7 +169,7 @@ footer {
   color: var(--background-highlight-color);
 }
 
-#form-section button {
+#form-section .button-highlight {
   padding: 0.4rem 1.5rem;
 }
 
@@ -209,12 +209,15 @@ footer {
   padding-bottom: 1rem;
 }
 
-/*  TEMp DELETE */
-/* .container,
-#garden-grid img, 
-#gallery-grid img {
-  border: black solid 2px;
-} */
+#gallery-grid,
+#garden-grid {
+  padding-bottom: 2rem;
+}
+
+#gallery-hero p,
+#garden-hero p {
+  font-size: 1rem;
+}
 
 /* Media Queries */
 
