@@ -90,7 +90,7 @@ main h3 {
 
 /* Header section with hero*/
 #hero {
-  height: 70vh;
+  height: 60vh;
   background: url("../images/hero.webp") no-repeat 0px 0px / cover;
   box-shadow: 0 3px 3px #3a3a3a;
 }
