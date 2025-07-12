@@ -4,7 +4,96 @@ The Garden Gallery is small business, that operates from a private property in R
 
 The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
----To Add and Replace here: Am I Responsive Image---
+![Am I Responsive image of the website](assets/images/the-garden-gallery-responsive.png)
+
+---
+
+## CONTENTS
+
+* [User Experience](#user-experience)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+---
+
+## User Experience
+
+### User Stories
+
+* As a potential new visitor, I would like to see a home page, that describes exactly what the event is about and what the entrance fees are.
+
+* As a potential new visitor, it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages, which showcases the garden and the galley.
+
+* As a garden enthusiast, I want to see a few pictures, showcasing the Garden and what to expect. If possible, a video frame from Youtube, in regards to this garden and event.
+
+* As an art enthusiast, I want to see a few pictures, showcasing the Gallery with multiple artwork.
+
+* As a customer, there should be easily accessible and visible buttons throughout the website, where I can effortlessly register for an event.
+
+* As a customer, I would like to see some sort of confirmation upon successful registration.
+
+* As a potential visitor, there needs to be a clear and easily accessible contact section.
+
+* As a potential visitor, it would be helpful to have a consistent and clear navigation system throughout the website.
+
+## Design
+
+### Typography
+
+I have used Google Fonts for this project and chose the following two fonts:
+
+- **Great Vibes:** Used for all the main headings in the website. In order to accomodate the idea of the business, I opted for a artistic floral type of design. This font fit that criteria perfectly, aesthetically plaesing, yet still simple enough to read easily.
+- **Nunito:** Used for all other text in on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
+
+ In order to test the contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
+
+ ![Screenshot of the two fonts used, Great Vibes and Nunito](assets/images/fonts.png)
+
+### Colour Scheme
+
+When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
+
+Here is a visual representation of the overall colour scheme of the website:
+![screenshot of the colour scheme used](assets/images/colour-scheme.jpg)
+
+### Accessibility Considerations
+
+Ensuring strong colour contrast for readability was a key design principle from the outset. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
+
+![Colour Pallette](assets/media/colour-pallette.png)
+
+
+
+
+
+
+
 
 ## Features
 
@@ -58,26 +147,7 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
   - Explain 
 
-## Typography
 
-For this project, Google Fonts was used to create a cohesive and accessible typography style:
-
-- **Quicksand:** Used for the majority of the site’s content, including headings and body text. This font has a rounded, modern design that brings a fun, approachable, and positive vibe to the site, reflecting the welcoming nature of Boops & Snoots Rescue. It balances personality with professionalism, ensuring the site feels inviting yet trustworthy.
-- **Lato:** Chosen for form inputs and areas where a more formal tone was needed. Lato is a clean, sans-serif font with excellent legibility, making it ideal for areas requiring a professional feel, such as forms and informational sections. It pairs seamlessly with Quicksand, ensuring a cohesive and accessible design.
-  Both fonts were selected to ensure a balance between a friendly, approachable feel and professionalism, enhancing the overall user experience across the site.
-
-## Colour Scheme
-
-When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
-
-Here is a visual representation of the overall colour scheme of the website:
-![alt text](assets/images/colour-scheme.jpg)
-
-### Accessibility Considerations
-
-Ensuring strong colour contrast for readability was a key design principle from the outset. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
-
-![Colour Pallette](assets/media/colour-pallette.png)
 
 
 ## Testing 
