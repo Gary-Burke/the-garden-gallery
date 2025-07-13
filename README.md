@@ -24,8 +24,10 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
   * [Future Features](#future-features)
 
 * [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  * [Languages & Frameworks](#languages--frameworks)
+  * [Development Tools](#development-tools)
+  * [Design & UI Tools](#design--ui-tools)
+  * [Additional Tools](#additional-tools)
 
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
@@ -114,45 +116,74 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
 - __Navigation Bar__
 
-  - Explain the nav bar
-  - Explain the styles of the nav bar
+  - The navbar is placed at the top of webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where thez are on a page. The navbar is identical on all pages.
+  - The active page is highlighted and a hover effect appears, when hovering over the navigation items. There is also a call to action button, located at the end of the nav items with its' own hover styled effect.
    ![alt text](assets/images/features-navbar.png)
 
 - __The Home page__
 
-  - Explain
-  - Explain the styles
+  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
+  - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages respectively. 
   ![alt text](assets/images/features-homepage.png)
-
-- __The Gallery Page__
-
-  - Explain
-  - Explain the styles 
-  ![alt text](assets/images/features-gallery.png)
 
 - __The Garden Page__
 
-  - Explain 
-  - Explain the styles 
+  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
+  - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). There are rounded borders and sufficient gaps between the photos, to give it a clean styled look.
   ![alt text](assets/images/features-garden.png)
+
+- __The Gallery Page__
+
+  - The Gallery page contains a few photos of the various art, that has been displayed or still is being displayed at the gallery.
+  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). The same styles have been used as with the Gallery page.
+  ![alt text](assets/images/features-gallery.png)
 
 - __The Registration Page__
 
-  - Explain 
-  - Explain the styles 
+  - A simple yet neat form has been used and styled in accordance with the rest of the website's overall design.
+  - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
+  - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
   ![alt text](assets/images/features-registration.png)
+  ![alt text](assets/images/features-success.png)
 
 - __Footer__
 
-  - Explain
-  - Explain the styles
+  - The footer contains the contact us section and as with the navbar, is identical on all the pages.
+  - It contains the address, the phone number as well as an email address.
+  At the vey bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
   ![alt text](assets/images/features-footer.png)
 
 ### Future Features
 
 - __Online Store__
 
-  - Explain 
+  - It would be a great business venture, to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
+
+## Technologies Used
+
+### Languages & Frameworks
+- **HTML** – Used for the structure and content of the website.
+- **CSS** – Used to style the website.
+- **Bootstrap** – Predominantly used for responsive design, with the goal of having a mobile-first design. Used for the registration form as well.
+- **JavaScript** – This has been limited to the function of the navbar, to ensure that it auto-closes on smaller devices.
+
+### Development Tools
+- **GitHub** – Used for version control, tracking changes, and hosting the project repository.
+- **Visual Studio Code** – The primary code editor for developing the site.
+- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
+- **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
+
+### Design & UI Tools
+- **Balsamiq Wireframes** – Used for planning and drafting the layout of all pages and sections within the website..
+- **Coolors** – Helped to create a suitable colour palette for the website.
+- **WebAIM Contrast Checker** – Used to test the colour contrast for readability and accessibility.
+- **Google Fonts** – Custom fonts provides more authenticity and design style.
+- **Font Awesome** – Provided all manner of icons used within the website.
+- **Favicon.io** – Used to generate a favicon for the website. The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
+- **Fontjoy** - To find complementing fonts with sufficient contrast.
+
+### Additional Tools
+- **Gimp** - Used for all manner of image manipulation.
 
 ## Testing 
 
