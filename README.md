@@ -16,12 +16,12 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
+  * [Accessibility Considerations](#accessibility-considerations)
   * [Wireframes](#wireframes)
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
+  * [Current Features](#current-features)
+  * [Future Features](#future-features)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -83,11 +83,30 @@ Here is a visual representation of the overall colour scheme of the website:
 
 In order ensure proper contrast and accessibility between the colours for readability, I used [webaim](https://webaim.org/resources/contrastchecker/) to check and adjust the colour variations accordingly. 
 
- In order to test the contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
+ In order to test and ensure that there is an adequate contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
 
+### Wireframes
+For this project I used Balsamiq to plan and draft the wireframes.
 
+ <details><summary>The Home Page (<em>Click to expand the wireframe</em>)</summary>
 
+![alt text](assets/images/wireframe-home.png)
+     </details>
 
+<details><summary>The Registration Page (<em>Click to expand the wireframe</em>)</summary>
+
+![alt text](assets/images/wireframe-registration.png)
+     </details>
+
+<details><summary>The Garden Page (<em>Click to expand the wireframe</em>)</summary>
+
+![alt text](assets/images/wireframe-garden.png)
+     </details>
+
+<details><summary>The Gallery Page (<em>Click to expand the wireframe</em>)</summary>
+
+![alt text](assets/images/wireframe-gallery.png)
+     </details>
 
 ## Features
 
@@ -97,52 +116,43 @@ In order ensure proper contrast and accessibility between the colours for readab
 
   - Explain the nav bar
   - Explain the styles of the nav bar
-  - Add Screenshot
+   ![alt text](assets/images/features-navbar.png)
 
-- __The landing page__
-
-  - Explain
-  - Explain the styles
-  - Add Screenshot
-
-- __Business Background__
+- __The Home page__
 
   - Explain
   - Explain the styles
-  - Add Screenshot
-
-- __Footer__
-
-  - Explain
-  - Explain the styles
-  - Add Screenshot
+  ![alt text](assets/images/features-homepage.png)
 
 - __The Gallery Page__
 
   - Explain
   - Explain the styles 
-  - Add Screenshot
+  ![alt text](assets/images/features-gallery.png)
 
 - __The Garden Page__
 
   - Explain 
   - Explain the styles 
-  - Add Screenshot
+  ![alt text](assets/images/features-garden.png)
 
-- __The Sign Up Page__
+- __The Registration Page__
 
   - Explain 
   - Explain the styles 
-  - Add Screenshot
+  ![alt text](assets/images/features-registration.png)
+
+- __Footer__
+
+  - Explain
+  - Explain the styles
+  ![alt text](assets/images/features-footer.png)
 
 ### Future Features
 
 - __Online Store__
 
   - Explain 
-
-
-
 
 ## Testing 
 
