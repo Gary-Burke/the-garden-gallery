@@ -50,7 +50,7 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 * As a potential new visitor, it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages, which showcases the garden and the galley.
 
-* As a garden enthusiast, I want to see a few pictures, showcasing the Garden and what to expect. If possible, a video frame from Youtube, in regards to this garden and event.
+* As a garden enthusiast, I want to see a few pictures, showcasing the Garden and what to expect from attending the event.
 
 * As an art enthusiast, I want to see a few pictures, showcasing the Gallery with multiple artwork.
 
@@ -68,12 +68,9 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 I have used Google Fonts for this project and chose the following two fonts:
 
-- **Great Vibes:** Used for all the main headings in the website. In order to accomodate the idea of the business, I opted for a artistic floral type of design. This font fit that criteria perfectly, aesthetically plaesing, yet still simple enough to read easily.
+- **Great Vibes:** Used for all the main headings in the website. In order to accomodate the idea of the business, I opted for a artistic floral type of design. This font fit that criteria perfectly, aesthetically pleasing, yet still simple enough to read easily.
+
 - **Nunito:** Used for all other text in on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
-
- In order to test the contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
-
- ![Screenshot of the two fonts used, Great Vibes and Nunito](assets/images/fonts.png)
 
 ### Colour Scheme
 
@@ -84,12 +81,9 @@ Here is a visual representation of the overall colour scheme of the website:
 
 ### Accessibility Considerations
 
-Ensuring strong colour contrast for readability was a key design principle from the outset. Before development, the colour choices were tested using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) to confirm compliance with WCAG (Web Content Accessibility Guidelines). The goal was to maintain high contrast ratios for text elements, particularly for call-to-action buttons and important information, ensuring the site is accessible to users with visual impairments or colour blindness.
+In order ensure proper contrast and accessibility between the colours for readability, I used [webaim](https://webaim.org/resources/contrastchecker/) to check and adjust the colour variations accordingly. 
 
-![Colour Pallette](assets/media/colour-pallette.png)
-
-
-
+ In order to test the contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
 
 
 
