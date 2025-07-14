@@ -98,7 +98,7 @@ main h3 {
 /* Header section with hero*/
 #hero {
   height: 60vh;
-  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
+  background: url("../images/hero-small.webp") no-repeat 0px 0px / cover;
   box-shadow: 0 3px 3px #3a3a3a;
 }
 
@@ -261,6 +261,10 @@ footer {
   body {
     padding-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
+  #hero {
+  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
+}
+
   .section {
     padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
   }
