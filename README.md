@@ -29,11 +29,7 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
   * [Design & UI Tools](#design--ui-tools)
   * [Additional Tools](#additional-tools)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+* [Deployment](#deployment)
 
 * [Testing](#testing)
 
@@ -41,7 +37,7 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
   * [Code Used](#code-used)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+
 ---
 
 ## User Experience
@@ -68,7 +64,7 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 ### Typography
 
-I have used Google Fonts for this project and chose the following two fonts:
+I have used [Google Fonts](https://fonts.google.com/) for this project and chose the following two fonts:
 
 - **Great Vibes:** Used for all the main headings in the website. In order to accomodate the idea of the business, I opted for a artistic floral type of design. This font fit that criteria perfectly, aesthetically pleasing, yet still simple enough to read easily.
 
@@ -164,26 +160,40 @@ For this project I used Balsamiq to plan and draft the wireframes.
 ### Languages & Frameworks
 - **HTML** – Used for the structure and content of the website.
 - **CSS** – Used to style the website.
-- **Bootstrap** – Predominantly used for responsive design, with the goal of having a mobile-first design. Used for the registration form as well.
-- **JavaScript** – This has been limited to the function of the navbar, to ensure that it auto-closes on smaller devices.
+- **Bootstrap** – Predominantly used for responsive design, with the goal of having a mobile-first design. All the elements used from the Bootstrap library have been customized with CSS.
+- **JavaScript** – Used in the standard Font Awesome Toolkit script, the Bootstrap library script and has been used for the function of the navbar, to ensure that it auto-closes on smaller devices.
 
 ### Development Tools
-- **GitHub** – Used for version control, tracking changes, and hosting the project repository.
-- **Visual Studio Code** – The primary code editor for developing the site.
-- **Chrome Developer Tools** – Used for debugging, inspecting elements, and testing responsive design in real time.
-- **Am I Responsive** – Checked responsiveness across different screen sizes and took preview screenshots.
+- **Git & GitHub** – Used for version control, tracking changes, and hosting the project repository.
+- **Visual Studio Code** – The IDE used for developing the website.
+- **Chrome Developer Tools** – Used to test responsiveness of the website, to debug and to inspect elements.
+- **Am I Responsive** – Visual representation of website's responsiveness across different screen sizes. Added a screenshot to the start of this README.
 
 ### Design & UI Tools
 - **Balsamiq Wireframes** – Used for planning and drafting the layout of all pages and sections within the website..
 - **Coolors** – Helped to create a suitable colour palette for the website.
 - **WebAIM Contrast Checker** – Used to test the colour contrast for readability and accessibility.
-- **Google Fonts** – Custom fonts provides more authenticity and design style.
+- **Google Fonts** – Used for custom fonts as they provide more authenticity and design style to the website.
 - **Font Awesome** – Provided all manner of icons used within the website.
 - **Favicon.io** – Used to generate a favicon for the website. The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
 - **Fontjoy** - To find complementing fonts with sufficient contrast.
 
 ### Additional Tools
 - **Gimp** - Used for all manner of image manipulation.
+
+## Deployment
+
+This website was deployed to GitHub pages by the following process:
+
+- Open the repository in GitHub.
+- Open the Settings tab.
+- Go to the Pages section under Code and automation.
+- Navigate to the Build and deployment section.
+- From the Branch dropdown menu, select Main and save.
+- Once the site has been delpoyed, the url will be displayed in this Pages section.
+- You might need to refresh GitHub manually after a few seconds.
+
+The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
 ## Testing 
 
@@ -211,51 +221,23 @@ If this section grows too long, you may want to split it off into a separate fil
 
 There are no known bugs in the webiste.
 
-## Deployment
-
-This website was deployed to GitHub pages by the following process:
-
-- Open the repository in GitHub.
-- Open the Settings tab.
-- Go to the Pages section under Code and automation.
-- Navigate to the Build and deployment section.
-- From the Branch dropdown menu, select Main and save.
-- Once the site has been delpoyed, the url will be displayed in this Pages section.
-- You might need to refresh GitHub manually after a few seconds.
-
-The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
-
 ## Credits 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
+
+
+### Code Used
+
+- The standard Bootstrap library, Font Awesome Toolkit, Favicons and Google Fonts.
+- The only additional code copied and used was the JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. This code was copied from the CI Boardwalk Games project.
+
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text of this website has been written personally by me. Although this location and concept for this business idea is real, it nonetheless remains a fictitious website.
+- The icons used in this website were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- All the images have been personally provided by Sylvia Weber, the hostess of this Garden Gallery. 
