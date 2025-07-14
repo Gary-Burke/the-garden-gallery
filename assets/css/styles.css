@@ -44,13 +44,11 @@ p {
 
 .button-outline:hover {
   background-color: var(--primary-background-color);
-  border-color: var(--primary-background-color);
   color: white;
 }
 
 .button-solid {
   background-color: var(--primary-background-color);
-  border-color: var(--primary-background-color);
   color: white;
   padding: 0.4rem 1.5rem;
 }
