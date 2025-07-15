@@ -152,7 +152,7 @@ footer {
 }
 
 .contact-info i {
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* To make icons bigger in the footer address section*/
 }
 
 #contact {
@@ -171,7 +171,7 @@ footer {
 }
 
 #contact i {
-  color: var(--secondary-text-color);
+  color: var(--secondary-text-color); /* Sets colour of all icons in the footer */
 }
 
 #contact h2 {

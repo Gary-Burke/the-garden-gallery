@@ -16,8 +16,8 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 - [Design](#design)
 
-  - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
+  - [Colour Scheme](#colour-scheme)
   - [Accessibility Considerations](#accessibility-considerations)
   - [Wireframes](#wireframes)
 
@@ -230,19 +230,14 @@ There are no known bugs in the webiste.
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Code Used
 
-- The standard Bootstrap library, Font Awesome Toolkit, Favicons and Google Fonts.
+- As already mentioned, this website uses the standard Bootstrap library, Font Awesome Toolkit, Favicons and Google Fonts.
 - The only additional code copied and used was the JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. This code was copied from the CI Boardwalk Games project.
 
 ### Content
 
-- The text of this website has been written personally by me. Although this location and concept for this business idea is real, it nonetheless remains a fictitious website.
-- The icons used in this website were taken from [Font Awesome](https://fontawesome.com/)
+- The text of this website has been written personally by me. Although this location and concept for this business idea is real, it remains nonetheless a fictitious website.
 
 ### Media
 
