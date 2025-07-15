@@ -185,37 +185,22 @@ footer {
   padding: 0.4rem 1.5rem;
 }
 
-/* The Garden Page */
-#garden-hero {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
-}
-
-#garden-grid img {
-  height: 400px;
-  width: fit-content;
-  padding: 0.3rem;
-  border-radius: 1.5rem;
-}
-
-#garden-hero h2 {
-  color: var(--primary-background-color);
-  padding-bottom: 1rem;
-}
-
-/* The Gallery Page */
+/* The Garden and Gallery Page */
+#garden-hero,
 #gallery-hero {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
 
+#garden-grid img,
 #gallery-grid img {
-  height: 400px;
+  height: 320px;
   width: fit-content;
   padding: 0.3rem;
   border-radius: 1.5rem;
 }
 
+#garden-hero h2,
 #gallery-hero h2 {
   color: var(--primary-background-color);
   padding-bottom: 1rem;
@@ -250,6 +235,7 @@ footer {
     font-size: 3.5rem;
     word-spacing: 1rem;
   }
+
   h2 {
     font-size: 3rem;
   }
@@ -258,19 +244,28 @@ footer {
     font-size: 2.2rem;
     word-spacing: 0.2rem;
   }
+
   body {
     padding-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
+
+  #garden-grid img,
+  #gallery-grid img {
+    height: 400px;
+  }
+
   #hero {
-  background: url("../images/hero.webp") no-repeat 0px 0px / cover;
-}
+    background: url("../images/hero.webp") no-repeat 0px 0px / cover;
+  }
 
   .section {
     padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
   }
+
   #social-icons {
     font-size: 3rem;
   }
+
   #form-section {
     top: 25%; /* move the absolute position of the registration form */
   }
