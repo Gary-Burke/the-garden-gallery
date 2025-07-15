@@ -189,6 +189,7 @@ For this project I used Balsamiq to plan and draft the wireframes.
 ### Additional Tools
 
 - **Gimp** - Used for all manner of image manipulation.
+- **Autoprefixer** - Used to add vendor prefixes to CSS
 
 ## Deployment
 
@@ -213,7 +214,7 @@ By using Chrome Dev Tools, the website has been tested and designed successfully
 ### Validator Testing
 
 - HTML
-  - No errors were reported by the official [W3C validator](https://validator.w3.org/#validate_by_input).
+  - No errors or warnings were reported by the official [W3C validator](https://validator.w3.org/#validate_by_input).
   - There are a few info messages reported but this is due to the Code Formatter Prettier adding trailing slashes for XHTML compatibility.
 - CSS
   - No errors were reported by the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)

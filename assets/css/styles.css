@@ -92,7 +92,8 @@ main h3 {
 /* Navbar */
 nav {
   background-color: var(--primary-background-color);
-  box-shadow: 0 3px 3px #3a3a3a;
+  -webkit-box-shadow: 0 3px 3px #3a3a3a;
+          box-shadow: 0 3px 3px #3a3a3a;
 }
 
 .nav-item .nav-link {
@@ -115,7 +116,8 @@ nav {
 #hero {
   height: 60vh;
   background: url("../images/hero-small.webp") no-repeat 0px 0px / cover;
-  box-shadow: 0 3px 3px #3a3a3a;
+  -webkit-box-shadow: 0 3px 3px #3a3a3a;
+          box-shadow: 0 3px 3px #3a3a3a;
 }
 
 /* Meetings section */
@@ -144,7 +146,8 @@ nav {
 
 /* Footer */
 footer {
-  box-shadow: 0 -3px 3px #3a3a3a;
+  -webkit-box-shadow: 0 -3px 3px #3a3a3a;
+          box-shadow: 0 -3px 3px #3a3a3a;
   padding-top: 2rem;
 }
 
@@ -211,6 +214,8 @@ footer {
 #garden-grid img,
 #gallery-grid img {
   height: 320px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding: 0.3rem;
   border-radius: 1.5rem;
@@ -241,7 +246,8 @@ footer {
 /* Small screen sizes - 576px and up */
 @media screen and (min-width: 576px) {
   #hero {
-    box-shadow: 3px 3px 3px #3a3a3a;
+    -webkit-box-shadow: 3px 3px 3px #3a3a3a;
+            box-shadow: 3px 3px 3px #3a3a3a;
   }
 }
 
