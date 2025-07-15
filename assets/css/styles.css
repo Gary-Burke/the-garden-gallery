@@ -84,15 +84,31 @@ p {
   padding-top: 2.2rem; /* Account for fixed nav bar and h1 responsive size change */
 }
 
+main h2,
+main h3 {
+  color: var(--primary-background-color);
+}
+
 /* Navbar */
 nav {
   background-color: var(--primary-background-color);
   box-shadow: 0 3px 3px #3a3a3a;
 }
 
-main h2,
-main h3 {
+.nav-item .nav-link {
+  color: var(--background-highlight-color);
+}
+
+#nav-button {
+  background-color: var(--background-highlight-color);
   color: var(--primary-background-color);
+  border: 2px solid var(--background-highlight-color);
+}
+
+#nav-button:hover {
+    background-color: var(--primary-background-color);
+  border: 2px solid var(--background-highlight-color);
+  color: var(--background-highlight-color);
 }
 
 /* Header section with hero*/
