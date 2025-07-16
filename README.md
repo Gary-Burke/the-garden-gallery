@@ -239,3 +239,7 @@ There are no known bugs in the webiste.
 ### Media
 
 - All the images have been personally provided by Sylvia Weber, the hostess of this Garden Gallery.
+
+### Mentor
+- My mentor, Tim Nelson, helped me quite a bit with the README document. He explained what is needed, why it is needed and what needs to be changed, especially in regards to the deployment and testing sections.
+- He also advised me on adding the 404 page to my project. 
