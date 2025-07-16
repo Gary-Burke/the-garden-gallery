@@ -34,6 +34,7 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
+  word-spacing: 0.3rem;
 }
 
 h3 {
@@ -120,12 +121,12 @@ nav {
           box-shadow: 0 3px 3px #3a3a3a;
 }
 
-/* Meetings section */
-#meetings h3 {
+/* About Us section */
+#about h3 {
   padding-top: 1rem;
 }
 
-#meetings .button-solid {
+#about .button-solid {
   padding: 0.5rem 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -230,6 +231,10 @@ footer {
 #gallery-grid,
 #garden-grid {
   padding-bottom: 2rem;
+}
+
+img {
+  object-fit: cover;
 }
 
 /* Success page */
