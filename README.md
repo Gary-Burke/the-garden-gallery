@@ -109,6 +109,7 @@ For this project I used Balsamiq to plan and draft the wireframes.
   - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
   - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
     ![alt text](documentation/features-registration.png)
+    
     ![alt text](documentation/features-success.png)
 
 - **Footer**
