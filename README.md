@@ -8,42 +8,6 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 ---
 
-## CONTENTS
-
-- [User Experience](#user-experience)
-
-  - [User Stories](#user-stories)
-
-- [Design](#design)
-
-  - [Typography](#typography)
-  - [Colour Scheme](#colour-scheme)
-  - [Accessibility Considerations](#accessibility-considerations)
-  - [Wireframes](#wireframes)
-
-- [Features](#features)
-
-  - [Current Features](#current-features)
-  - [Future Features](#future-features)
-
-- [Technologies Used](#technologies-used)
-
-  - [Languages & Frameworks](#languages--frameworks)
-  - [Development Tools](#development-tools)
-  - [Design & UI Tools](#design--ui-tools)
-  - [Additional Tools](#additional-tools)
-
-- [Deployment](#deployment)
-
-- [Testing](#testing)
-
-- [Credits](#credits)
-  - [Code Used](#code-used)
-  - [Content](#content)
-  - [Media](#media)
-
----
-
 ## User Experience
 
 ### User Stories
