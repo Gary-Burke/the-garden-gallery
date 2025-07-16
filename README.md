@@ -4,7 +4,7 @@ The Garden Gallery is small business, that operates from a private property in R
 
 The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
-![Am I Responsive image of the website](assets/images/the-garden-gallery-responsive.png)
+![Am I Responsive image of the website](documentation/the-garden-gallery-responsive.png)
 
 ---
 
@@ -43,7 +43,7 @@ I have used [Google Fonts](https://fonts.google.com/) for this project and chose
 When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
 
 Here is a visual representation of the overall colour scheme of the website:
-![screenshot of the colour scheme used](assets/images/colour-scheme.jpg)
+![screenshot of the colour scheme used](documentation/colour-scheme.jpg)
 
 ### Accessibility Considerations
 
@@ -57,22 +57,22 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
  <details><summary>The Home Page (<em>Click to expand the wireframe</em>)</summary>
 
-![alt text](assets/images/wireframe-home.png)
+![alt text](documentation/wireframe-home.png)
 </details>
 
 <details><summary>The Registration Page (<em>Click to expand the wireframe</em>)</summary>
 
-![alt text](assets/images/wireframe-registration.png)
+![alt text](documentation/wireframe-registration.png)
 </details>
 
 <details><summary>The Garden Page (<em>Click to expand the wireframe</em>)</summary>
 
-![alt text](assets/images/wireframe-garden.png)
+![alt text](documentation/wireframe-garden.png)
 </details>
 
 <details><summary>The Gallery Page (<em>Click to expand the wireframe</em>)</summary>
 
-![alt text](assets/images/wireframe-gallery.png)
+![alt text](documentation/wireframe-gallery.png)
 </details>
 
 ## Features
@@ -83,40 +83,40 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
   - The navbar is placed at the top of webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where thez are on a page. The navbar is identical on all pages.
   - The active page is highlighted and a hover effect appears, when hovering over the navigation items. There is also a call to action button, located at the end of the nav items with its' own hover styled effect.
-    ![alt text](assets/images/features-navbar.png)
+    ![alt text](documentation/features-navbar.png)
 
 - **The Home page**
 
   - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
   - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages respectively.
-    ![alt text](assets/images/features-homepage.png)
+    ![alt text](documentation/features-homepage.png)
 
 - **The Garden Page**
 
   - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
   - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). There are rounded borders and sufficient gaps between the photos, to give it a clean styled look.
-    ![alt text](assets/images/features-garden.png)
+    ![alt text](documentation/features-garden.png)
 
 - **The Gallery Page**
 
   - The Gallery page contains a few photos of the various art, that has been displayed or still is being displayed at the gallery.
   - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). The same styles have been used as with the Gallery page.
-    ![alt text](assets/images/features-gallery.png)
+    ![alt text](documentation/features-gallery.png)
 
 - **The Registration Page**
 
   - A simple yet neat form has been used and styled in accordance with the rest of the website's overall design.
   - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
   - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
-    ![alt text](assets/images/features-registration.png)
-    ![alt text](assets/images/features-success.png)
+    ![alt text](documentation/features-registration.png)
+    ![alt text](documentation/features-success.png)
 
 - **Footer**
 
   - The footer contains the contact us section and as with the navbar, is identical on all the pages.
   - It contains the address, the phone number as well as an email address.
     At the vey bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
-    ![alt text](assets/images/features-footer.png)
+    ![alt text](documentation/features-footer.png)
 
 ### Future Features
 
