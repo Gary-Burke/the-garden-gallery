@@ -5,10 +5,14 @@
 :root {
   --heading-font: "Great Vibes", cursive;
   --primary-font: "Nunito", sans-serif;
-  --primary-background-color: #1b512d; /* Dark green */
-  --background-highlight-color: #def4c6; /* Off-White */
-  --primary-text-color: #166444; /* medium green */
-  --secondary-text-color: #b1cf5f; /* lime green */
+  --primary-background-color: #1b512d;
+  /* Dark green */
+  --background-highlight-color: #def4c6;
+  /* Off-White */
+  --primary-text-color: #166444;
+  /* medium green */
+  --secondary-text-color: #b1cf5f;
+  /* lime green */
 }
 
 /* General CSS */
@@ -16,7 +20,8 @@
 body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
-  padding-top: 4rem; /* Moves body down to compensate for fixed navbar */
+  padding-top: 4rem;
+  /* Moves body down to compensate for fixed navbar */
 }
 
 h1,
@@ -28,7 +33,8 @@ h3 {
 h1 {
   font-size: 2rem;
   word-spacing: 0.3rem;
-  margin-bottom: 0px; /* centers heading with burger icon vertically */
+  margin-bottom: 0px;
+  /* centers heading with burger icon vertically */
   color: var(--background-highlight-color);
 }
 
@@ -82,7 +88,8 @@ p {
 }
 
 .section {
-  padding-top: 2.2rem; /* Account for fixed nav bar and h1 responsive size change */
+  padding-top: 2.2rem;
+  /* Account for fixed nav bar and h1 responsive size change */
 }
 
 main h2,
@@ -94,7 +101,7 @@ main h3 {
 nav {
   background-color: var(--primary-background-color);
   -webkit-box-shadow: 0 3px 3px #3a3a3a;
-          box-shadow: 0 3px 3px #3a3a3a;
+  box-shadow: 0 3px 3px #3a3a3a;
 }
 
 .nav-item .nav-link {
@@ -118,7 +125,7 @@ nav {
   height: 60vh;
   background: url("../images/hero-small.webp") no-repeat 0px 0px / cover;
   -webkit-box-shadow: 0 3px 3px #3a3a3a;
-          box-shadow: 0 3px 3px #3a3a3a;
+  box-shadow: 0 3px 3px #3a3a3a;
 }
 
 /* About Us section */
@@ -148,12 +155,13 @@ nav {
 /* Footer */
 footer {
   -webkit-box-shadow: 0 -3px 3px #3a3a3a;
-          box-shadow: 0 -3px 3px #3a3a3a;
+  box-shadow: 0 -3px 3px #3a3a3a;
   padding-top: 2rem;
 }
 
 .contact-info i {
-  font-size: 1.2rem; /* To make icons bigger in the footer address section*/
+  font-size: 1.2rem;
+  /* To make icons bigger in the footer address section*/
 }
 
 #contact {
@@ -172,7 +180,8 @@ footer {
 }
 
 #contact i {
-  color: var(--secondary-text-color); /* Sets colour of all icons in the footer */
+  color: var(--secondary-text-color);
+  /* Sets colour of all icons in the footer */
 }
 
 #contact h2 {
@@ -252,7 +261,7 @@ img {
 @media screen and (min-width: 576px) {
   #hero {
     -webkit-box-shadow: 3px 3px 3px #3a3a3a;
-            box-shadow: 3px 3px 3px #3a3a3a;
+    box-shadow: 3px 3px 3px #3a3a3a;
   }
 }
 
@@ -273,7 +282,8 @@ img {
   }
 
   body {
-    padding-top: 5.9rem; /* Moves body down to compensate for fixed navbar as h1 increases in size */
+    padding-top: 5.9rem;
+    /* Moves body down to compensate for fixed navbar as h1 increases in size */
   }
 
   #garden-grid img,
@@ -286,7 +296,8 @@ img {
   }
 
   .section {
-    padding-top: 4rem; /* Account for fixed nav bar and h1 responsive size change */
+    padding-top: 4rem;
+    /* Account for fixed nav bar and h1 responsive size change */
   }
 
   #social-icons {
@@ -294,20 +305,22 @@ img {
   }
 
   #form-section {
-    top: 25%; /* move the absolute position of the registration form */
+    top: 25%;
+    /* move the absolute position of the registration form */
   }
 }
 
 /* Large screen sizes - 992px and up */
 @media screen and (min-width: 992px) {
   .section {
-    padding-top: 6rem; /* Account for fixed nav bar and h1 responsive size change */
+    padding-top: 6rem;
+    /* Account for fixed nav bar and h1 responsive size change */
   }
 }
 
 /* X-Large screen sizes - 1200px and up */
 @media screen and (min-width: 1200px) {
-  nav > .container > a {
+  nav>.container>a {
     width: 50%;
     text-align: right;
   }
