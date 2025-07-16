@@ -109,7 +109,7 @@ For this project I used Balsamiq to plan and draft the wireframes.
   - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
   - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
     ![alt text](documentation/features-registration.png)
-    
+
     ![alt text](documentation/features-success.png)
 
 - **Footer**
@@ -118,6 +118,12 @@ For this project I used Balsamiq to plan and draft the wireframes.
   - It contains the address, the phone number as well as an email address.
     At the vey bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
     ![alt text](documentation/features-footer.png)
+
+- **404 Page**
+
+  - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
+  ![alt text](documentation/features-404.png)
+
 
 ### Future Features
 
