@@ -10,12 +10,12 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot |
 | --- | --- | --- | --- |
-| root | [404.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/404.html) | ![screenshot](documentation\testing\validator-404.png) |
-| root | [gallery.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/gallery.html) | ![screenshot](documentation\testing\validator-gallery.png) |
-| root | [garden.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/garden.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/garden.html) | ![screenshot](documentation\testing\validator-garden.png) |
-| root | [index.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/index.html) | ![screenshot](documentation\testing\validator-index.png) |
-| root | [register.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/register.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/register.html) | ![screenshot](documentation\testing\validator-register.png) |
-| root | [success.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/success.html) | ![screenshot](documentation\testing\validator-success.png) |
+| root | [404.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/404.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/404.html) | ![screenshot](documentation/testing/validator-404.png) |
+| root | [gallery.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/gallery.html) | ![screenshot](documentation/testing/validator-gallery.png) |
+| root | [garden.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/garden.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/garden.html) | ![screenshot](documentation/testing/validator-garden.png) |
+| root | [index.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/index.html) | ![screenshot](documentation/testing/validator-index.png) |
+| root | [register.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/register.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/register.html) | ![screenshot](documentation/testing/validator-register.png) |
+| root | [success.html](https://github.com/Gary-Burke/the-garden-gallery/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://gary-burke.github.io/the-garden-gallery/success.html) | ![screenshot](documentation/testing/validator-success.png) |
 
 ### CSS
 
@@ -23,7 +23,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [styles.css](https://github.com/Gary-Burke/the-garden-gallery/blob/main/assets/css/styles.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://gary-burke.github.io/the-garden-gallery) | ![screenshot](documentation\testing\validator-css.png) | All warnings were checked and can be safely ignored. Such as for the Bootstrap and Font Awesome libraries, vendor extensions added by Autoprefixer, the Google Fonts import and CSS variables that are not checked. |
+| assets | [styles.css](https://github.com/Gary-Burke/the-garden-gallery/blob/main/assets/css/styles.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://gary-burke.github.io/the-garden-gallery) | ![screenshot](documentation/testing/validator-css.png) | All warnings were checked and can be safely ignored. Such as for the Bootstrap and Font Awesome libraries, vendor extensions added by Autoprefixer, the Google Fonts import and CSS variables that are not checked. |
 
 
 ## Responsiveness
