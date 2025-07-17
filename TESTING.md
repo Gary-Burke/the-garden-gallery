@@ -168,19 +168,7 @@ Most of your project's **Features** should already align with the **User Stories
 
 ## Bugs
 
-⚠️ INSTRUCTIONS ⚠️
-
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
-
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/Gary-Burke/the-garden-gallery/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
+Note: I did not document my bugs on GitHub initially. After the discussion session with my mentor, Tim Nelson, he showed me this concept of using issues to track your bugs. For documentation purposes, I have transferred all of my bugs to my project in GitHub afterwards, hence no history or track record between creating and resolving them.
 
 ### Fixed Bugs
 
@@ -190,7 +178,7 @@ I've used [GitHub Issues](https://www.github.com/Gary-Burke/the-garden-gallery/i
 
 All previously closed/fixed bugs can be tracked [here](https://www.github.com/Gary-Burke/the-garden-gallery/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
 
-![screenshot](documentation/bugs/gh-issues-closed.png)
+![screenshot](documentation/testing/gh-issues-closed.png)
 
 ### Unfixed Bugs
 
