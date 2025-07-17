@@ -28,33 +28,16 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Responsiveness
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
-
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of your results, to "prove" that you've actually tested them.
-
-Using the [amiresponsive](http://ami.responsivedesign.is) mockup images (*or similar*) does not meet the requirements. Consider using some of the built-in device sizes from the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well. It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-⚠️ --- END --- ⚠️
-
-I've tested my deployed project to check for responsiveness issues.
+I've tested my deployed project to check for responsiveness issues by using Google Chrome Dev Tools.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![screenshot](documentation/testing/responsiveness-mobile-home.png) | ![screenshot](documentation/testing/responsiveness-tablet-home.png) | ![screenshot](documentation/testing/responsiveness-desktop-home.png) | Works as expected |
+| Garden | ![screenshot](documentation/testing/responsiveness-mobile-garden.png) | ![screenshot](documentation/testing/responsiveness-tablet-garden.png) | ![screenshot](documentation/testing/responsiveness-desktop-garden.png) | Works as expected |
+| Gallery | ![screenshot](documentation/testing/responsiveness-mobile-gallery.png) | ![screenshot](documentation/testing/responsiveness-tablet-gallery.png) | ![screenshot](documentation/testing/responsiveness-desktop-gallery.png) | Works as expected |
+| Registration | ![screenshot](documentation/testing/responsiveness-mobile-register.png) | ![screenshot](documentation/testing/responsiveness-tablet-register.png) | ![screenshot](documentation/testing/responsiveness-desktop-register.png) | Works as expected |
+| Success | ![screenshot](documentation/testing/responsiveness-mobile-success.png) | ![screenshot](documentation/testing/responsiveness-tablet-success.png) | ![screenshot](documentation/testing/responsiveness-desktop-success.png) | Works as expected |
+| 404 | ![screenshot](documentation/testing/responsiveness-mobile-404.png) | ![screenshot](documentation/testing/responsiveness-tablet-404.png) | ![screenshot](documentation/testing/responsiveness-desktop-404.png) | Works as expected |
 
 ## Browser Compatibility
 
