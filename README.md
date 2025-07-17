@@ -4,7 +4,7 @@ The Garden Gallery is small business, that operates from a private property in R
 
 The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
-![Am I Responsive image of the website](documentation/the-garden-gallery-responsive.png)
+![Am I Responsive image of the website](documentation/readme/the-garden-gallery-responsive.png)
 
 ---
 
@@ -38,14 +38,14 @@ I have used [Google Fonts](https://fonts.google.com/) for this project and chose
 
 - **Nunito:** Used for all other text in on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
 
-![Screenshot of fonts used](documentation/fonts.png)
+![Screenshot of fonts used](documentation/readme/fonts.png)
 
 ### Colour Scheme
 
 When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/palette/1c7c54-73e2a7-def4c6-1b512d-b1cf5f) to find a green colour palette that resemblances this thought and feeling of nature.
 
 Here is a visual representation of the overall colour scheme of the website:
-![screenshot of the colour scheme used](documentation/colour-scheme.jpg)
+![screenshot of the colour scheme used](documentation/readme/colour-scheme.jpg)
 
 ### Accessibility Considerations
 
@@ -59,22 +59,22 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
  <details><summary>The Home Page (<em>Click to expand the wireframe</em>)</summary>
 
-![Home Page wireframe](documentation/wireframe-home.png)
+![Home Page wireframe](documentation/readme/wireframe-home.png)
 </details>
 
 <details><summary>The Registration Page (<em>Click to expand the wireframe</em>)</summary>
 
-![Registration Page wireframe](documentation/wireframe-registration.png)
+![Registration Page wireframe](documentation/readme/wireframe-registration.png)
 </details>
 
 <details><summary>The Garden Page (<em>Click to expand the wireframe</em>)</summary>
 
-![Garden Page wireframe](documentation/wireframe-garden.png)
+![Garden Page wireframe](documentation/readme/wireframe-garden.png)
 </details>
 
 <details><summary>The Gallery Page (<em>Click to expand the wireframe</em>)</summary>
 
-![Gallery Page wireframe](documentation/wireframe-gallery.png)
+![Gallery Page wireframe](documentation/readme/wireframe-gallery.png)
 </details>
 
 ## Features
@@ -85,46 +85,46 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
   - The navbar is placed at the top of webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where thez are on a page. The navbar is identical on all pages.
   - The active page is highlighted and a hover effect appears, when hovering over the navigation items. There is also a call to action button, located at the end of the nav items with its' own hover styled effect.
-    ![Screenshot of navbar](documentation/features-navbar.png)
+    ![Screenshot of navbar](documentation/readme/features-navbar.png)
 
 - **The Home page**
 
   - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
   - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages respectively.
-    ![Screenshot of home page](documentation/features-homepage.png)
+    ![Screenshot of home page](documentation/readme/features-homepage.png)
 
 - **The Garden Page**
 
   - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
   - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). There are rounded borders and sufficient gaps between the photos, to give it a clean styled look.
-    ![Screenshot of garden page](documentation/features-garden.png)
+    ![Screenshot of garden page](documentation/readme/features-garden.png)
 
 - **The Gallery Page**
 
   - The Gallery page contains a few photos of the various art, that has been displayed or still is being displayed at the gallery.
   - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). The same styles have been used as with the Gallery page.
-    ![Screenshot of gallery page](documentation/features-gallery.png)
+    ![Screenshot of gallery page](documentation/readme/features-gallery.png)
 
 - **The Registration Page**
 
   - A simple yet neat form has been used and styled in accordance with the rest of the website's overall design.
   - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
   - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
-    ![Screenshot of registration page](documentation/features-registration.png)
+    ![Screenshot of registration page](documentation/readme/features-registration.png)
 
-    ![Screenshot of success page](documentation/features-success.png)
+    ![Screenshot of success page](documentation/readme/features-success.png)
 
 - **Footer**
 
   - The footer contains the contact us section and as with the navbar, is identical on all the pages.
   - It contains the address, the phone number as well as an email address.
     At the vey bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
-    ![Screenshot of footer](documentation/features-footer.png)
+    ![Screenshot of footer](documentation/readme/features-footer.png)
 
 - **404 Page**
 
   - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
-  ![Screenshot of 404 page](documentation/features-404.png)
+  ![Screenshot of 404 page](documentation/readme/features-404.png)
 
 
 ### Future Features
