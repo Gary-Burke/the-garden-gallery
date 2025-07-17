@@ -42,7 +42,7 @@ I have used [Google Fonts](https://fonts.google.com/) for this project and chose
 
 ### Colour Scheme
 
-When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
+When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/palette/1c7c54-73e2a7-def4c6-1b512d-b1cf5f) to find a green colour palette that resemblances this thought and feeling of nature.
 
 Here is a visual representation of the overall colour scheme of the website:
 ![screenshot of the colour scheme used](documentation/colour-scheme.jpg)
