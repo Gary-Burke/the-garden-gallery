@@ -38,6 +38,8 @@ I have used [Google Fonts](https://fonts.google.com/) for this project and chose
 
 - **Nunito:** Used for all other text in on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
 
+![Screenshot of fonts used](documentation/fonts.png)
+
 ### Colour Scheme
 
 When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/) to find a green colour palette that resemblances this thought and feeling of nature.
