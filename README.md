@@ -207,16 +207,7 @@ There are no differences between the local and deployed version of the site.
 
 ## Testing
 
-A thorough and extensive self-testing has been executed for this website to ensure that there are no broken links or bugs.
-Every button and link across the website and all of its' pages functions correctly.
-By using Chrome Dev Tools, the website has been tested and designed successfully for all breakpoints and screensizes.
-
-### Validator Testing
-
-- HTML
-  - No errors or warnings were reported by the official [W3C validator](https://validator.w3.org/#validate_by_input).
-- CSS
-  - No errors were reported by the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 ### Resolved Bugs
 
