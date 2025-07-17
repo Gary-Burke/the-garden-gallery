@@ -133,36 +133,29 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
   - It would be a great business venture, to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
 
-## Technologies Used
+## Tools & Technologies
 
-### Languages & Frameworks
-
-- **HTML** – Used for the structure and content of the website.
-- **CSS** – Used to style the website.
-- **Bootstrap** – Predominantly used for responsive design, with the goal of having a mobile-first design. All the elements used from the Bootstrap library have been customized with CSS.
-- **JavaScript** – Used in the standard Font Awesome Toolkit script, the Bootstrap library script and has been used for the function of the navbar, to ensure that it auto-closes on smaller devices.
-
-### Development Tools
-
-- **Git & GitHub** – Used for version control, tracking changes, and hosting the project repository.
-- **Visual Studio Code** – The IDE used for developing the website.
-- **Chrome Developer Tools** – Used to test responsiveness of the website, to debug and to inspect elements.
-- **Am I Responsive** – Visual representation of website's responsiveness across different screen sizes. Added a screenshot to the start of this README.
-
-### Design & UI Tools
-
-- **Balsamiq Wireframes** – Used for planning and drafting the layout of all pages and sections within the website..
-- **Coolors** – Helped to create a suitable colour palette for the website.
-- **WebAIM Contrast Checker** – Used to test the colour contrast for readability and accessibility.
-- **Google Fonts** – Used for custom fonts as they provide more authenticity and design style to the website.
-- **Font Awesome** – Provided all manner of icons used within the website.
-- **Favicon.io** – Used to generate a favicon for the website. The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
-- **Fontjoy** - To find complementing fonts with sufficient contrast.
+| Tool / Tech | Use |
+| --- | --- |
+| [![badge](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://markdown.2bn.dev) | Generate README and TESTING templates. |
+| [![badge](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) | Version control. (`git add`, `git commit`, `git push`) |
+| [![badge](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) | Secure online code storage. |
+| [![badge](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com) | Local IDE for development. |
+| [![badge](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) | Main site content and layout. |
+| [![badge](https://img.shields.io/badge/CSS-grey?logo=css&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) | Design and layout. |
+| [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
+| [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) | Front-end CSS framework for modern responsiveness and pre-built components. |
+| [![badge](https://img.shields.io/badge/Balsamiq-grey?logo=barmenia&logoColor=CE0908)](https://balsamiq.com/wireframes) | Creating wireframes. |
+| [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) | Icons. |
+| [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com) | Tutorials/Reference Guide |
+| [![badge](https://img.shields.io/badge/StackOverflow-grey?logo=stackoverflow&logoColor=F58025)](https://stackoverflow.com) | Troubleshooting and Debugging |
+| [![badge](https://img.shields.io/badge/Gimp-grey?logo=gimp&logoColor=181717)](https://www.gimp.org/) | Image Manipulation |
+| [![badge](https://img.shields.io/badge/Autoprefixer-grey?logo=autoprefixer&logoColor=CE0908)](https://autoprefixer.github.io/) | Parses CSS and adds vendor prefixes |
 
 ### Additional Tools
 
-- **Gimp** - Used for all manner of image manipulation.
-- **Autoprefixer** - Used to add vendor prefixes to CSS
+-  [favicon.io](https://favicon.io/emoji-favicons/tulip)
+   - The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
 
 ## Deployment
 
@@ -238,7 +231,6 @@ There are no known bugs in the webiste.
 
 ### Code Used
 
-- As already mentioned, this website uses the standard Bootstrap library, Font Awesome Toolkit, Favicons and Google Fonts.
 - The only additional code copied and used was the JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. This code was copied from the CI Boardwalk Games project.
 
 ### Content
