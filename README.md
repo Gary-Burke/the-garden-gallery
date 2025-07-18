@@ -156,6 +156,8 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
 -  [favicon.io](https://favicon.io/emoji-favicons/tulip)
    - The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
+-  [Am I Responsive](https://ui.dev/amiresponsive)
+   - This resource was used to generate a design responsive screenshot for the README document of The Garden Gallery.
 
 ## Deployment
 
