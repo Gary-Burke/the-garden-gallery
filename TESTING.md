@@ -1,6 +1,7 @@
 # Testing
 
-- Return back to the [README.md](README.md) file.
+> [!Note]
+> Return back to the [README.md](README.md) file.
 
 ## Code Validation
 
@@ -159,7 +160,8 @@ Most of your project's **Features** should already align with the **User Stories
 
 ## Bugs
 
-Note: I did not document my bugs on GitHub initially. After the discussion session with my mentor, Tim Nelson, he showed me this concept of using issues to track your bugs. For documentation purposes, I have transferred all of my bugs to my project in GitHub afterwards, hence no history or track record between creating and resolving them.
+> [!Note]
+> I did not document my bugs on GitHub initially. After the first discussion session with my mentor, Tim Nelson, he showed me this method of using GitHub to track your bugs. For documentation purposes, I have transferred all of my bugs to my project in GitHub afterwards, hence no history or track record between creating and resolving them.
 
 ### Fixed Bugs
 
