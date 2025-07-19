@@ -135,6 +135,10 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
   - It would be a great business venture, to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
 
+- **Hover effect images**
+
+  - It would look really intriguing, if a user could hover over an image and then it becomes larger. This would be applicabe to the Gallery and the Garden pages respectively.
+
 ## Tools & Technologies
 
 | Tool / Tech | Use |
