@@ -240,18 +240,32 @@ There are no differences between the local and deployed version of the site.
 
 ## Credits
 
-### Code Used
-
-- The only additional code copied and used was the JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. This code was copied from the CI Boardwalk Games project.
-
 ### Content
 
-- The text of this website has been written personally by me. Although this location and concept for this business idea is real, it remains nonetheless a fictitious website.
+| Source | Notes |
+| --- | --- |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message". |
+| [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files. |
+| [Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode/blob/main/02-08-the-endgame-finishing-up/02-08-02b-html-and-css-validation/index.html) | Code Institute walkthrough project, copied JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links. |
+| [stackoverflow](https://stackoverflow.com/) | Used for troubleshooting, debugging and coding solutions |
 
 ### Media
 
-- All the images have been personally provided by Sylvia Weber, the hostess of this Garden Gallery.
+| Source | Notes |
+| --- | --- |
+| [favicon.io](https://favicon.io) | Generating the favicon |
+| [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
+| Sylvia Weber | She personally provided all images used for the garden and the art as she is the owner. |
+| Gary Burke | The text of this website has been written personally by me. Although the location and concept for this business idea exists, it remains nonetheless a fictitious website. |
+
+### Acknowledgements
 
 ### Mentor
-- My mentor, Tim Nelson, helped me quite a bit with the README document. He explained what is needed, why it is needed and what needs to be changed, especially in regards to the deployment and testing sections.
-- He also advised me on adding the 404 page to my project. 
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project, especially in regards to the README and TESTING documents.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for their suggestions and feedback.
+- I would like to thank Kay, my cohort facilitator at the Code Institute for sharing valuable resources in regards to this project and providing me with answers as they needed clarification.
+
+
+
+
