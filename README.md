@@ -169,6 +169,9 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
 ### GitHub Projects
 
+> [!Note]
+> I did not use GitHub initially to document and track my user stories. For documentation purposes, I have transferred all of my user stories to my project in GitHub afterwards, hence no history or track record between creating and closing them.
+
 GitHub Projects was the tool used for the planning and tracking of the website's development. Two projects were created, one for the user stories and one for bugs. Both can be viewed by clicking this link [GitHub Projects](https://www.github.com/Gary-Burke/the-garden-gallery/projects) 
 
 ![GitHub Projects screenshot](documentation/readme/gh-projects.png)
