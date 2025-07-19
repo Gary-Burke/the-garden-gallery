@@ -165,7 +165,17 @@ For this project I used Balsamiq to plan and draft the wireframes.
 -  [Am I Responsive](https://ui.dev/amiresponsive)
    - This resource was used to generate a design responsive screenshot for the README document of The Garden Gallery.
 
+## Development Process
+
+### GitHub Projects
+
+GitHub Projects was the tool used for the planning and tracking of the website's development. Two projects were created, one for the user stories and one for bugs. Both can be viewed by clicking this link [GitHub Projects](https://www.github.com/Gary-Burke/the-garden-gallery/projects) 
+
+![GitHub Projects screenshot](documentation/readme/gh-projects.png)
+
 ## Deployment
+
+### GitHub Pages
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
