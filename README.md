@@ -1,5 +1,13 @@
 # The Garden Gallery
 
+Developer: Gary Burke ([Gary-Burke](https://www.github.com/Gary-Burke))
+
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Gary-Burke/the-garden-gallery)](https://www.github.com/Gary-Burke/the-garden-gallery/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Gary-Burke/the-garden-gallery)](https://www.github.com/Gary-Burke/the-garden-gallery/commits/main)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Gary-Burke/the-garden-gallery)](https://www.github.com/Gary-Burke/the-garden-gallery)
+
+## Introduction ##
+
 The Garden Gallery is small business, that operates from a private property in Radefeld Germany. The aim of the business is to organize social events, where a group of people sign up for a tour of the french styled garden. The tour is designed to be interactive where visitors can not only view the style of the garden but also learn new techniques in regards to garden styling and maintenacne as well as sharing tips and tricks within the group. After the tour, they will be introduced to an art gallery, where numerous art pieces from local artists will be on dispay. The visitors will then be given the oppertunity to make purchases, if they wish to. 
 
 The main goal of this website, is to increase their online presence and draw more people on a regular basis to their events, so that they can sell more merchandise and create a larger group of followers.
