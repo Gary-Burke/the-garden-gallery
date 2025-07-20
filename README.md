@@ -93,47 +93,46 @@ For this project, I used Balsamiq to plan and draft the wireframes.
 
 - **Navigation Bar**
 
-  - The navbar is placed at the top of the webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where they are on a page. The navbar is identical on all pages.
-  - The active page is highlighted and a hover effect appears when hovering over the navigation items. There is also a call to action button, located at the end of the nav items, with its own hover-style effect.
+  - The navbar is placed at the top of the webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where they are on a page. The navbar is identical on all pages.
+  - The active page is highlighted and a hover effect appears when hovering over the navigation items. There is also a call to action button, located at the end of the nav items, with its own hover-style effect.
  ![Screenshot of navbar](documentation/readme/features-navbar.png)
 
 - **The Home page**
 
-  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
-  - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages, respectively.
+  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
+  - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages, respectively.
  ![Screenshot of home page](documentation/readme/features-homepage.png)
 
 - **The Garden Page**
 
-  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
-  - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). There are rounded borders and sufficient gaps between the photos to give it a clean, styled look.
+  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
+  - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). There are rounded borders and sufficient gaps between the photos to give it a clean, styled look.
  ![Screenshot of garden page](documentation/readme/features-garden.png)
 
 - **The Gallery Page**
 
-  - The Gallery page contains a few photos of the various art that has been displayed or still is being displayed at the gallery.
-  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). The same styles have been used as with the Gallery page.
+  - The Gallery page contains a few photos of the various art that has been displayed or still is being displayed at the gallery.
+  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). The same styles have been used as with the Gallery page.
  ![Screenshot of gallery page](documentation/readme/features-gallery.png)
 
 - **The Registration Page**
 
-  - A simple yet neat form has been used and styled to align with the rest of the website's overall design.
-  - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
-  - All the input fields have a required attribute and input types, for example, the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
+  - A simple yet neat form has been used and styled to align with the rest of the website's overall design.
+  - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
+  - All the input fields have a required attribute and input types, for example, the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
  ![Screenshot of registration page](documentation/readme/features-registration.png)
-
  ![Screenshot of success page](documentation/readme/features-success.png)
 
 - **Footer**
 
-  - The footer contains the contact us section and as with the navbar, it is identical on all the pages.
-  - It contains the address, the phone number and an email address.
+  - The footer contains the contact us section and as with the navbar, it is identical on all the pages.
+  - It contains the address, the phone number and an email address.
  At the very bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
  ![Screenshot of footer](documentation/readme/features-footer.png)
 
 - **404 Page**
 
-  - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
+  - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
  ![Screenshot of 404 page](documentation/readme/features-404.png)
 
 
@@ -141,11 +140,11 @@ For this project, I used Balsamiq to plan and draft the wireframes.
 
 - **Online Store**
 
-  - It would be a great business venture to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
+  - It would be a great business venture to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
 
 - **Hover effect images**
 
-  - It would look intriguing if a user could hover over an image and then it becomes larger. This would apply to the Gallery and the Garden pages, respectively.
+  - It would look intriguing if a user could hover over an image and then it becomes larger. This would apply to the Gallery and the Garden pages, respectively.
 
 ## Tools & Technologies
 
