@@ -99,25 +99,25 @@ For this project, I used Balsamiq to plan and draft the wireframes.
 
 - **The Home page**
 
-  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
+  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these events are, providing the user with immediate essential information.
   - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages, respectively.
  ![Screenshot of home page](documentation/readme/features-homepage.png)
 
 - **The Garden Page**
 
-  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
+  - The Garden page contains a few photos of the garden, which the events will revolve around. It showcases the different features, styles and angles of the scenes and provides the user with a better concept regarding what type of Garden to expect.
   - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). There are rounded borders and sufficient gaps between the photos to give it a clean, styled look.
  ![Screenshot of garden page](documentation/readme/features-garden.png)
 
 - **The Gallery Page**
 
-  - The Gallery page contains a few photos of the various art that has been displayed or still is being displayed at the gallery.
-  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). The same styles have been used as with the Gallery page.
+  - The Gallery page contains a few photos of the various art that has been displayed at the gallery and in doing so, provides the user with a better visual understanding of what to expect.
+  - As with the Garden page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). The same styles have been used as with the Gallery page.
  ![Screenshot of gallery page](documentation/readme/features-gallery.png)
 
 - **The Registration Page**
 
-  - A simple yet neat form has been used and styled to align with the rest of the website's overall design.
+  - A simple yet neat form has been used and styled to align with the rest of the website's overall design, giving the user an effortless process to register.
   - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
   - All the input fields have a required attribute and input types, for example, the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
  ![Screenshot of registration page](documentation/readme/features-registration.png)
@@ -125,9 +125,9 @@ For this project, I used Balsamiq to plan and draft the wireframes.
 
 - **Footer**
 
-  - The footer contains the contact us section and as with the navbar, it is identical on all the pages.
+  - The footer contains the contact us section and as with the navbar, it is identical on all the pages and provides the user with all the necessary contact information at a glance.
   - It contains the address, the phone number and an email address.
- At the very bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
+ At the very bottom, all the different social media icons are displayed, which will open the sites on a new page.
  ![Screenshot of footer](documentation/readme/features-footer.png)
 
 - **404 Page**
