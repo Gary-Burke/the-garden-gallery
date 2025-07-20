@@ -271,7 +271,3 @@ There are no differences between the local and deployed versions of the site.
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN), for the support throughout the development of this project, especially regarding the README and TESTING documents.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for their suggestions and feedback.
 - I would like to thank Kay, my cohort facilitator at the Code Institute, for sharing valuable resources regarding this project and providing me with answers as I needed clarification.
-
-
-
-

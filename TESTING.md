@@ -68,37 +68,37 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-Defensive programming was manually tested with following criteria and outcome:
+Defensive programming was manually tested with the following criteria and outcome:
 
 | Page | Expectation | Test | Result | Screenshot |
 | --- | --- |  --- |  --- |  --- |
 | Registration Form | Feature is expected to prevent an empty form from being submitted. | Attempted to submit the form when all fields were left blank. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/form-first-name.png) |
 | | Feature is expected to ensure a last name is entered. | Attempted to submit the form without adding a last name. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/form-last-name.png) |
-| | Feature is expected to ensure an e-mail is entered. | Attempted to submit the form without adding an e-mail address. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/form-email-1.png) |
-| | Feature is expected to enforce valid input for the email field. | Entered invalid data, i.e. did not add the @ sign. | Error message was displayed accordingly, and submission was blocked. | ![screenshot](documentation/defensive/form-email-2.png) |
+| | Feature is expected to ensure that an email is entered. | Attempted to submit the form without adding an e-mail address. | Form submission was blocked, as expected. | ![screenshot](documentation/defensive/form-email-1.png) |
+| | Feature is expected to enforce valid input for the email field. | Entered invalid data, i.e., did not add the @ sign. | Error message was displayed accordingly, and submission was blocked. | ![screenshot](documentation/defensive/form-email-2.png) |
 | | Feature is expected to ensure a phone number is entered. | Attempted to submit the form without adding a phone number. | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/form-phone.png) |
 | | Feature is expected to ensure the user chooses an event. | Attempted to submit the form without selecting an event. | Error messages were displayed appropriately, and submission was blocked. | ![screenshot](documentation/defensive/form-select.png) |
-| Social Links | Feature is expected to open each social media platform in a new tab. | Clicked each social media icon respectively. | Confirmed that each link opened correctly and in a new tab. | ![screenshot](documentation/defensive/social-links.png) |
-| 404 Error Page | Feature is expected to display a 404 error message for broken links or non-existing pages. | Typed in an invalid URL (e.g., `/dream`) to test the outcome. | An appropriate 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
+| Social Links | Feature is expected to open each social media platform in a new tab. | Click each social media icon respectively. | Confirmed that each link opened correctly and in a new tab. | ![screenshot](documentation/defensive/social-links.png) |
+| 404 Error Page | Feature is expected to display a 404 error message for broken links or non-existent pages. | Typed in an invalid URL (e.g., `/dream`) to test the outcome. | An appropriate 404 error page was displayed as expected. | ![screenshot](documentation/defensive/404.png) |
 
 ## User Story Testing
 
 
 | Target | Expectation | Outcome | Screenshot | 
 | --- | --- | --- | --- | 
-| As a new visitor | I would like to see a home page, that describes exactly what the event is about and what the entrance fees are | so that I can know what to expect and how much it costs. | ![screenshot](documentation/features/feature01.png) |
-| As a new visitor | it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages | which showcases the garden and the gallery. | ![screenshot](documentation/features/feature02.png) |
-| As a new visitor | there should be easily accessible and visible buttons throughout the website  | so that I can effortlessly register for an event. | ![screenshot](documentation/features/feature03.png) |
+| As a new visitor | I would like to see a home page that describes exactly what the event is about and what the entrance fees are | so that I can know what to expect and how much it costs. | ![screenshot](documentation/features/feature01.png) |
+| As a new visitor | it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages | which showcase the garden and the gallery. | ![screenshot](documentation/features/feature02.png) |
+| As a new visitor | there should be easily accessible and visible buttons throughout the website  | so that I can effortlessly register for an event. | ![screenshot](documentation/features/feature03.png) |
 | As a new visitor | I would like to see some sort of confirmation upon successful registration | so that I can be sure that it was successful. | ![screenshot](documentation/features/feature04.png) |
-| As a new visitor |  there needs to be a clear and easily accessible contact section | so that I can get further information if needed. | ![screenshot](documentation/features/feature05.png) |
+| As a new visitor |  there needs to be a clear and easily accessible contact section | so that I can get further information if needed. | ![screenshot](documentation/features/feature05.png) |
 | As a new visitor | it would be helpful to have a consistent and clear navigation system throughout the website | so that I don't get lost or confused between pages. | ![screenshot](documentation/features/feature06.png) |
 | As a garden enthusiast | I want to see a few pictures, showcasing the Garden | so that I can be well prepared | ![screenshot](documentation/features/feature07.png) |
-| As an art enthusiast | I want to see a few pictures, showcasing the Gallery with multiple artwork | so that I can better understand the range of art. | ![screenshot](documentation/features/feature08.png) |
+| As an art enthusiast | I want to see a few pictures, showcasing the Gallery with multiple artworks | so that I can better understand the range of art. | ![screenshot](documentation/features/feature08.png) |
 
 ## Bugs
 
 > [!Note]
-> I did not document my bugs on GitHub initially. After the first discussion session with my mentor, Tim Nelson, he showed me this method of using GitHub to track your bugs. For documentation purposes, I have transferred all of my bugs to my project in GitHub afterwards, hence no history or track record between creating and resolving them.
+> I did not document my bugs on GitHub initially. After the first discussion session with my mentor, Tim Nelson, he showed me this method of using GitHub to track bugs. For documentation purposes, I have transferred all of my bugs to my project on GitHub afterwards, hence no history or track record between creating and resolving them.
 
 ### Fixed Bugs
 
@@ -113,5 +113,4 @@ All previously closed/fixed bugs can be tracked [here](https://www.github.com/Ga
 ### Unfixed Bugs
 
 - There are no remaining bugs or problems that I am aware of in this project and website. 
-- Eventhough thorough testing was executed, the possibility remains that there could still be some error or bug, that has not been discovered yet.
-
+- Even though thorough testing was executed, the possibility remains that there could still be some error or bug that has not been discovered yet.
