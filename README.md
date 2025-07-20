@@ -184,6 +184,10 @@ GitHub Projects was the tool used for the planning and tracking of the website's
 
 ![GitHub Projects screenshot](documentation/readme/gh-projects.png)
 
+![GitHub Projects screenshot](documentation/readme/gh-issues-user-stories.png)
+
+![screenshot](documentation/testing/gh-issues-bugs.png)
+
 ## Deployment
 
 ### GitHub Pages
