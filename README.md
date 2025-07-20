@@ -173,7 +173,7 @@ For this project, I used Balsamiq to plan and draft the wireframes.
 - [Am I Responsive](https://ui.dev/amiresponsive) 
   - This resource was used to generate a responsive design screenshot for the README document of The Garden Gallery.
 - [grammarly](https://app.grammarly.com/)
-  - Used to check spelling and grammar of README and TESTING documents.
+  - Used to check spelling and grammar of paragraphs in general, as well as README and TESTING documents.
 
 ## Development Process
 
