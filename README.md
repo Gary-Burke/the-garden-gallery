@@ -190,6 +190,15 @@ GitHub Projects was the tool used for the planning and tracking of the website's
 
 ![screenshot](documentation/testing/gh-issues-bugs.png)
 
+### MoSCoW Prioritization
+
+I have listed my Epics into User Stories for prioritization and implementation purposes. In addition to the User Stories, I also applied the "MoSCoW" prioritization method with corresponding labels to them, within the Issues tab.
+
+- **Must Have**: Critical tasks that need to be met for the project to pass.
+- **Should Have**: These are valuable features, but not critical.
+- **Could Have**: Nice to haves, but don't have a crucial impact.
+- **Won't Have**: Not part of the current phase of the project but may be considered for future features.
+
 ## Deployment
 
 ### GitHub Pages
