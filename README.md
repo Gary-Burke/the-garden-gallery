@@ -8,9 +8,9 @@ Developer: Gary Burke ([Gary-Burke](https://www.github.com/Gary-Burke))
 
 ## Introduction ##
 
-The Garden Gallery is small business, that operates from a private property in Radefeld Germany. The aim of the business is to organize social events, where a group of people sign up for a tour of the french styled garden. The tour is designed to be interactive where visitors can not only view the style of the garden but also learn new techniques in regards to garden styling and maintenacne as well as sharing tips and tricks within the group. After the tour, they will be introduced to an art gallery, where numerous art pieces from local artists will be on dispay. The visitors will then be given the oppertunity to make purchases, if they wish to. 
+The Garden Gallery is a small business that operates from a private property in Radefeld, Germany. The business aims to organize social events, where a group of people sign up for a tour of the French-style garden. The tour is designed to be interactive, where visitors can not only view the style of the garden but also learn new techniques regarding garden styling and maintenance, as well as share tips and tricks within the group. After the tour, they will be introduced to an art gallery, where numerous art pieces from local artists will be on display. The visitors will then be allowed to make purchases, if they wish to. 
 
-The main goal of this website, is to increase their online presence and draw more people on a regular basis to their events, so that they can sell more merchandise and create a larger group of followers.
+The main goal of this website is to increase their online presence and draw more people on a regular basis to their events, so that they can sell more merchandise and create a larger group of followers.
 
 The live website can be viewed here: [The Garden Gallery](https://gary-burke.github.io/the-garden-gallery/)
 
@@ -22,17 +22,17 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 ### User Stories
 
-- As a potential new visitor, I would like to see a home page, that describes exactly what the event is about and what the entrance fees are.
+- As a potential new visitor, I would like to see a home page that describes exactly what the event is about and what the entrance fees are.
 
-- As a potential new visitor, it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages, which showcases the garden and the galley.
+- As a potential new visitor, it would be helpful if there were links with an image for guidance, to navigate to separate dedicated pages, which showcase the garden and the gallery.
 
 - As a garden enthusiast, I want to see a few pictures, showcasing the Garden and what to expect from attending the event.
 
-- As an art enthusiast, I want to see a few pictures, showcasing the Gallery with multiple artwork.
+- As an art enthusiast, I want to see a few pictures, showcasing the Gallery with multiple artworks.
 
 - As a customer, there should be easily accessible and visible buttons throughout the website, where I can effortlessly register for an event.
 
-- As a customer, I would like to see some sort of confirmation upon successful registration.
+- As a customer, I would like to see some confirmation upon successful registration.
 
 - As a potential visitor, there needs to be a clear and easily accessible contact section.
 
@@ -44,30 +44,30 @@ The live website can be viewed here: [The Garden Gallery](https://gary-burke.git
 
 I have used [Google Fonts](https://fonts.google.com/) for this project and chose the following two fonts:
 
-- **Great Vibes:** Used for all the main headings in the website. In order to accomodate the idea of the business, I opted for a artistic floral type of design. This font fit that criteria perfectly, aesthetically pleasing, yet still simple enough to read easily.
+- **Great Vibes:** Used for all the main headings in the website. In order to accommodate the idea of the business, I opted for an artistic floral type of design. This font fits that criteria perfectly, aesthetically pleasing, yet still simple enough to read easily.
 
-- **Nunito:** Used for all other text in on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
+- **Nunito:** Used for all other text on the website. It provides a great blend of complementing the heading but with a stark enough contrast to make reading easy.
 
 ![Screenshot of fonts used](documentation/readme/fonts.png)
 
 ### Colour Scheme
 
-When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/palette/1c7c54-73e2a7-def4c6-1b512d-b1cf5f) to find a green colour palette that resemblances this thought and feeling of nature.
+When thinking of the word "Garden", the colour green automatically comes to mind. Therefore, I used [Coolors](https://coolors.co/palette/1c7c54-73e2a7-def4c6-1b512d-b1cf5f) to find a green colour palette that resembles this thought and feeling of nature.
 
 Here is a visual representation of the overall colour scheme of the website:
 ![screenshot of the colour scheme used](documentation/readme/colour-scheme.jpg)
 
 ### Accessibility Considerations
 
-In order ensure proper contrast and accessibility between the colours for readability, I used [webaim](https://webaim.org/resources/contrastchecker/) to check and adjust the colour variations accordingly.
+In order to ensure proper contrast and accessibility between the colours for readability, I used [webaim](https://webaim.org/resources/contrastchecker/) to check and adjust the colour variations accordingly.
 
-In order to test and ensure that there is an adequate contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
+To test and ensure that there is an adequate contrast between the two fronts, I used [fontjoy](https://fontjoy.com/).
 
 ### Wireframes
 
-For this project I used Balsamiq to plan and draft the wireframes.
+For this project, I used Balsamiq to plan and draft the wireframes.
 
- <details><summary>The Home Page (<em>Click to expand the wireframe</em>)</summary>
+ <details><summary>The Home Page (<em>Click to expand the wireframe</em>)</summary>
 
 ![Home Page wireframe](documentation/readme/wireframe-home.png)
 </details>
@@ -93,59 +93,59 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
 - **Navigation Bar**
 
-  - The navbar is placed at the top of webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where thez are on a page. The navbar is identical on all pages.
-  - The active page is highlighted and a hover effect appears, when hovering over the navigation items. There is also a call to action button, located at the end of the nav items with its' own hover styled effect.
-    ![Screenshot of navbar](documentation/readme/features-navbar.png)
+  - The navbar is placed at the top of the webpage with a fixed position. This gives the user the ease of navigation throughout the website, regardless of where they are on a page. The navbar is identical on all pages.
+  - The active page is highlighted and a hover effect appears when hovering over the navigation items. There is also a call to action button, located at the end of the nav items, with its own hover-style effect.
+ ![Screenshot of navbar](documentation/readme/features-navbar.png)
 
 - **The Home page**
 
-  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
-  - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages respectively.
-    ![Screenshot of home page](documentation/readme/features-homepage.png)
+  - The landing page displays a beautiful garden as a hero image, which is the foundation of the business. Within view is also the section, which describes what the business is about and how much the entrance fees to these meetings are.
+  - There is another strategically placed call to action button, which allows the user to register for these events. I have decided to add two cards with navigation buttons here, taking the user directly to the garden and the gallery pages, respectively.
+ ![Screenshot of home page](documentation/readme/features-homepage.png)
 
 - **The Garden Page**
 
-  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
-  - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). There are rounded borders and sufficient gaps between the photos, to give it a clean styled look.
-    ![Screenshot of garden page](documentation/readme/features-garden.png)
+  - The Garden page contains a few photos of the garden, which the meetings will revolve around. It showcases the different features, styles and angles of the scenes.
+  - This is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). There are rounded borders and sufficient gaps between the photos to give it a clean, styled look.
+ ![Screenshot of garden page](documentation/readme/features-garden.png)
 
 - **The Gallery Page**
 
-  - The Gallery page contains a few photos of the various art, that has been displayed or still is being displayed at the gallery.
-  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (repsonsiveness). The same styles have been used as with the Gallery page.
-    ![Screenshot of gallery page](documentation/readme/features-gallery.png)
+  - The Gallery page contains a few photos of the various art that has been displayed or still is being displayed at the gallery.
+  - As with the Gallery page, this is done with the Bootstrap grid system and arranges the pictures based on the screen breakpoints (responsiveness). The same styles have been used as with the Gallery page.
+ ![Screenshot of gallery page](documentation/readme/features-gallery.png)
 
 - **The Registration Page**
 
-  - A simple yet neat form has been used and styled in accordance with the rest of the website's overall design.
-  - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
-  - All the input fields have a required attribute and input types, for example the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
-    ![Screenshot of registration page](documentation/readme/features-registration.png)
+  - A simple yet neat form has been used and styled to align with the rest of the website's overall design.
+  - Only essential contact and personal information is required in addition to the choice of which event the user wants to attend.
+  - All the input fields have a required attribute and input types, for example, the email and phone number fields. Upon successful registration, a confirmation message will appear, which gives the user clarity and it is accompanied by a home button.
+ ![Screenshot of registration page](documentation/readme/features-registration.png)
 
-    ![Screenshot of success page](documentation/readme/features-success.png)
+ ![Screenshot of success page](documentation/readme/features-success.png)
 
 - **Footer**
 
-  - The footer contains the contact us section and as with the navbar, is identical on all the pages.
-  - It contains the address, the phone number as well as an email address.
-    At the vey bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
-    ![Screenshot of footer](documentation/readme/features-footer.png)
+  - The footer contains the contact us section and as with the navbar, it is identical on all the pages.
+  - It contains the address, the phone number and an email address.
+ At the very bottom, one can easily find all the relevant social media icons, which will open the websites on a new page.
+ ![Screenshot of footer](documentation/readme/features-footer.png)
 
 - **404 Page**
 
-  - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
-  ![Screenshot of 404 page](documentation/readme/features-404.png)
+  - In the event of a 404 error, a suitable message will appear with a button to navigate the user back to the home page.
+ ![Screenshot of 404 page](documentation/readme/features-404.png)
 
 
 ### Future Features
 
 - **Online Store**
 
-  - It would be a great business venture, to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
+  - It would be a great business venture to create an online e-commerce store, where users can buy the art and view it online, without having to attend the event itself.
 
 - **Hover effect images**
 
-  - It would look really intriguing, if a user could hover over an image and then it becomes larger. This would be applicabe to the Gallery and the Garden pages respectively.
+  - It would look intriguing if a user could hover over an image and then it becomes larger. This would apply to the Gallery and the Garden pages, respectively.
 
 ## Tools & Technologies
 
@@ -168,17 +168,17 @@ For this project I used Balsamiq to plan and draft the wireframes.
 
 ### Additional Tools
 
--  [favicon.io](https://favicon.io/emoji-favicons/tulip)
-   - The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
--  [Am I Responsive](https://ui.dev/amiresponsive)
-   - This resource was used to generate a design responsive screenshot for the README document of The Garden Gallery.
+- [favicon.io](https://favicon.io/emoji-favicons/tulip)
+   - The emoji graphics are from the open source project Twemoji. The graphics are copyright 2020 Twitter, Inc and other contributors. The graphics are licensed under CC-BY 4.0.
+- [Am I Responsive](https://ui.dev/amiresponsive)
+   - This resource was used to generate a responsive design screenshot for the README document of The Garden Gallery.
 
 ## Development Process
 
 ### GitHub Projects
 
 > [!Note]
-> I did not use GitHub initially to document and track my user stories. For documentation purposes, I have transferred all of my user stories to my project in GitHub afterwards, hence no history or track record between creating and closing them.
+> I did not use GitHub initially to document and track my user stories. For documentation purposes, I have transferred all of my user stories to my project in GitHub, hence no history or track record between creating and closing them.
 
 GitHub Projects was the tool used for the planning and tracking of the website's development. Two projects were created, one for the user stories and one for bugs. Both can be viewed by clicking this link [GitHub Projects](https://www.github.com/Gary-Burke/the-garden-gallery/projects) 
 
@@ -214,7 +214,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	- `git clone https://github.com/Gary-Burke/the-garden-gallery.git`
+  - `git clone https://github.com/Gary-Burke/the-garden-gallery.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
@@ -230,13 +230,13 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 You can fork this repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Gary-Burke/the-garden-gallery)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+2. At the top of the Repository (not top of page), just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 
 ### Local VS Deployment
 
-There are no differences between the local and deployed version of the site.
+There are no differences between the local and deployed versions of the site.
 
 ## Testing
 
@@ -259,16 +259,16 @@ There are no differences between the local and deployed version of the site.
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
-| Sylvia Weber | She personally provided all images used for the garden and the art as she is the owner. |
-| Gary Burke | The text of this website has been written personally by me. Although the location and concept for this business idea exists, it remains nonetheless a fictitious website. |
+| Sylvia Weber | She provided all images used for the garden and the art, as she is the owner. |
+| Gary Burke | The text of this website has been written personally by me. Although the location and concept for this business idea exist, it remains nonetheless a fictitious website. |
 
 ### Acknowledgements
 
 ### Mentor
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project, especially in regards to the README and TESTING documents.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN), for the support throughout the development of this project, especially regarding the README and TESTING documents.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for their suggestions and feedback.
-- I would like to thank Kay, my cohort facilitator at the Code Institute for sharing valuable resources in regards to this project and providing me with answers as they needed clarification.
+- I would like to thank Kay, my cohort facilitator at the Code Institute, for sharing valuable resources regarding this project and providing me with answers as I needed clarification.
 
 
 
