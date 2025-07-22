@@ -271,6 +271,7 @@ There are no differences between the local and deployed versions of the site.
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
 | Sylvia Weber | She provided all images used for the garden and the art, as she is the owner. |
 | Gary Burke | The text of this website has been written personally by me. Although the location and concept for this business idea exist, it remains nonetheless a fictitious website. |
+| [chatGPT](https://chatgpt.com/) | Used to rewrite the paragraph content to have a more professional tone. |
 
 ### Acknowledgements
 
